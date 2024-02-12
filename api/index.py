@@ -1,6 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/api/python")
+@app.route("/api/numbers")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    print('hey! it worked')
+    return [2, 1]
