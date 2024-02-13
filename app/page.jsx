@@ -8,7 +8,7 @@ const Home = () => (
       <span className='inline-block orange_gradient text-center'> AI-powered screening</span>
     </h1>
     <p className='desc text-center'>
-      Revolutionizing autism screening for all age groups. 
+      Revolutionizing autism screening for all age groups
     </p>
 
     <Link href='/test' className="ui_btn">
