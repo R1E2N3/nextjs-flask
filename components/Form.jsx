@@ -81,8 +81,8 @@ const Form = () => {
                     className='number_input'
                     type="number" 
                     placeholder="18"
-                    value={formData.age} 
-                    onChange={(e) => handleInputChange('age', e.target.value)} 
+                    value={formData.Age} 
+                    onChange={(e) => handleInputChange('Age', e.target.value)} 
                 />
             </div>
             <div className='my-10 flex-col'>
