@@ -1,7 +1,7 @@
 import "./globals.css";
 
 import Provider from "/components/Provider";
-import NavBar from "/components/Navbar";
+import Nav from "/components/Nav";
 
 export const metadata = {
   title: "Autinosis",
