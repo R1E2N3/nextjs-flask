@@ -1,0 +1,702 @@
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,Age,Gender,Ethnicity,jundice,Autism,Country,Result,Relation,Target
+1,1,1,1,0,0,1,1,0,0,26,f,white-european,0,0,united states,6.0,self,0
+1,1,0,1,0,0,0,1,0,1,24,m,latino,0,1,brazil,5.0,self,0
+1,1,0,1,1,0,1,1,1,1,27,m,latino,1,1,spain,8.0,parent,1
+1,1,0,1,0,0,1,1,0,1,35,f,white-european,0,1,united states,6.0,self,0
+1,0,0,0,0,0,0,1,0,0,40,f,?,0,0,egypt,2.0,?,0
+1,1,1,1,1,0,1,1,1,1,36,m,others,1,0,united states,9.0,self,1
+0,1,0,0,0,0,0,1,0,0,17,f,black,0,0,united states,2.0,self,0
+1,1,1,1,0,0,0,0,1,0,64,m,white-european,0,0,new zealand,5.0,parent,0
+1,1,0,0,1,0,0,1,1,1,29,m,white-european,0,0,united states,6.0,self,0
+1,1,1,1,0,1,1,1,1,0,17,m,asian,1,1,bahamas,8.0,health care professional,1
+1,1,1,1,1,1,1,1,1,1,33,m,white-european,0,0,united states,10.0,relative,1
+0,1,0,1,1,1,1,0,0,1,18,f,middle eastern ,0,0,burundi,6.0,parent,0
+0,1,1,1,1,1,0,0,1,0,17,f,?,0,0,bahamas,6.0,?,0
+1,0,0,0,0,0,1,1,0,1,17,m,?,0,0,austria,4.0,?,0
+1,0,0,0,0,0,1,1,0,1,17,f,?,0,0,argentina,4.0,?,0
+1,1,0,1,1,0,0,1,0,1,18,m,middle eastern ,0,1,new zealand,6.0,parent,0
+1,0,0,0,0,0,1,1,1,1,31,m,middle eastern ,0,0,jordan,5.0,self,0
+0,0,0,0,0,0,0,1,0,1,30,m,white-european,0,0,ireland,2.0,self,0
+0,0,1,0,1,1,0,0,0,0,35,f,middle eastern ,0,1,united arab emirates,3.0,self,0
+0,0,0,0,0,0,1,1,0,1,34,m,?,1,0,united arab emirates,3.0,?,0
+0,1,1,1,0,0,0,0,0,0,38,m,?,0,0,united arab emirates,3.0,?,0
+0,0,0,0,0,0,0,0,0,0,27,f,black,0,0,united arab emirates,0.0,self,0
+0,0,0,1,0,0,1,1,1,1,27,m,middle eastern ,0,0,afghanistan,5.0,self,0
+0,0,0,0,0,0,0,1,0,1,42,m,middle eastern ,1,0,united arab emirates,2.0,relative,0
+1,1,1,1,0,0,0,1,0,0,43,m,?,0,0,lebanon,5.0,?,0
+0,1,1,0,0,0,0,1,0,0,24,f,?,1,0,afghanistan,3.0,?,0
+0,0,0,0,0,0,0,1,0,0,40,m,pasifika,1,1,united arab emirates,1.0,self,0
+0,0,0,0,0,0,0,1,0,0,40,m,middle eastern ,1,1,afghanistan,1.0,parent,0
+0,0,0,0,0,0,0,1,0,0,48,m,black,0,0,new zealand,1.0,self,0
+0,1,1,0,0,0,0,0,1,1,31,m,middle eastern ,0,0,united kingdom,4.0,self,0
+0,0,0,0,0,0,0,0,0,0,18,m,white-european,0,0,united kingdom,0.0,self,0
+1,0,0,1,1,1,1,1,0,1,37,f,white-european,0,1,united states,7.0,self,1
+1,1,0,0,0,0,1,0,0,1,55,f,others,0,0,new zealand,4.0,self,0
+1,1,1,1,1,1,1,1,1,1,18,f,white-european,1,0,south africa,10.0,self,1
+1,1,1,1,1,1,1,1,1,1,18,f,white-european,0,0,south africa,10.0,self,1
+0,0,1,0,0,0,0,0,0,0,55,m,white-european,0,0,new zealand,1.0,self,0
+0,1,1,0,1,0,0,1,1,1,50,m,middle eastern ,0,0,united arab emirates,6.0,self,0
+1,0,1,1,1,1,0,0,1,0,34,f,white-european,0,0,new zealand,6.0,self,0
+1,0,0,1,1,1,1,0,1,1,53,f,white-european,0,0,new zealand,7.0,self,1
+1,0,1,1,0,1,1,1,1,1,35,f,white-european,0,1,united states,8.0,self,1
+1,0,1,1,1,0,1,1,0,1,20,f,latino,1,0,italy,7.0,self,1
+0,0,0,0,1,1,0,0,0,0,28,f,asian,0,0,pakistan,2.0,self,0
+0,0,1,1,0,0,0,0,0,1,34,f,middle eastern ,0,1,egypt,3.0,self,0
+0,1,1,1,0,0,0,0,0,1,36,f,white-european,1,1,united states,4.0,self,0
+1,1,1,1,1,1,0,1,0,1,27,f,white-european,0,0,new zealand,8.0,self,1
+1,0,1,1,1,1,0,1,1,0,53,f,white-european,0,0,new zealand,7.0,relative,1
+1,1,1,1,0,1,0,0,0,0,24,f,pasifika,0,0,new zealand,5.0,relative,0
+0,0,1,1,1,0,1,0,0,0,24,m,pasifika,0,0,new zealand,4.0,relative,0
+0,1,1,0,0,1,0,0,0,0,55,m,white-european,0,0,new zealand,3.0,relative,0
+1,1,0,0,0,1,1,1,0,1,30,f,asian,0,0,bangladesh,6.0,self,0
+1,0,0,1,0,0,0,1,0,0,21,f,latino,0,0,chile,3.0,self,0
+1,1,1,1,1,1,1,1,1,1,35,f,black,0,0,france,10.0,parent,1
+1,0,1,1,1,1,1,1,0,1,21,m,latino,0,1,brazil,8.0,self,1
+1,1,1,1,1,1,1,1,1,1,47,m,white-european,0,0,united states,10.0,self,1
+1,1,1,1,1,1,0,1,1,1,30,f,asian,0,0,china,9.0,self,1
+1,0,1,1,1,1,0,1,1,1,28,f,white-european,0,0,australia,8.0,self,1
+1,1,1,1,1,1,0,1,1,1,43,f,white-european,0,0,australia,9.0,self,1
+1,0,0,0,1,0,0,1,0,0,32,f,south asian,0,1,canada,3.0,self,0
+1,1,1,1,0,0,0,1,0,0,44,f,white-european,0,0,australia,5.0,self,0
+1,0,1,1,1,1,1,1,0,1,20,f,others,0,0,canada,8.0,self,1
+1,0,1,1,0,1,1,1,0,1,20,f,others,0,0,canada,7.0,self,1
+1,0,0,1,1,0,0,1,1,0,19,m,white-european,0,0,australia,5.0,parent,0
+1,1,1,1,1,1,1,1,0,1,29,f,white-european,0,0,australia,9.0,self,1
+1,0,1,0,0,0,0,1,0,0,21,m,middle eastern ,0,0,united states,3.0,self,0
+0,1,0,0,0,0,0,1,0,0,27,m,middle eastern ,0,0,france,2.0,parent,0
+1,0,1,0,1,1,1,1,0,0,21,m,hispanic,0,0,united states,6.0,self,0
+1,0,0,0,1,0,1,0,0,1,35,m,middle eastern ,0,0,saudi arabia,4.0,self,0
+0,0,0,0,1,0,0,0,0,0,42,m,black,0,0,new zealand,1.0,self,0
+1,1,0,0,0,0,1,1,0,1,29,f,south asian,0,0,new zealand,5.0,self,0
+0,0,1,1,0,0,0,1,0,0,58,m,asian,0,0,new zealand,3.0,self,0
+1,0,1,1,0,0,1,1,0,1,21,m,others,0,0,united states,6.0,self,0
+1,1,1,0,0,0,0,1,1,1,21,m,others,0,0,united states,6.0,self,0
+0,0,1,1,1,0,0,1,1,1,37,f,white-european,0,1,united states,6.0,self,0
+1,1,0,1,1,1,1,1,0,0,21,m,hispanic,0,0,united states,7.0,self,1
+1,0,0,0,0,0,1,1,0,0,20,m,middle eastern ,0,0,united states,3.0,self,0
+1,1,0,1,1,1,1,1,1,0,33,f,black,0,1,united states,8.0,self,1
+1,0,0,1,1,0,0,0,0,1,20,m,middle eastern ,0,0,united states,4.0,self,0
+1,1,0,0,0,0,0,0,0,0,45,f,?,1,0,jordan,2.0,?,0
+0,0,1,1,0,0,1,1,0,1,32,m,?,1,1,afghanistan,5.0,?,0
+1,0,0,0,0,0,1,0,0,1,30,m,?,0,0,jordan,3.0,?,0
+1,1,1,1,1,1,1,1,1,1,33,f,white-european,0,1,netherlands,10.0,self,1
+0,0,1,0,1,0,0,1,0,1,42,f,middle eastern ,0,0,jordan,4.0,self,0
+1,1,0,0,0,0,0,0,0,0,17,f,white-european,0,0,new zealand,2.0,self,0
+1,0,0,0,0,0,0,1,0,1,27,f,middle eastern ,0,0,united states,3.0,self,0
+1,0,0,1,1,1,1,1,1,1,35,f,middle eastern ,0,1,afghanistan,8.0,parent,1
+1,0,0,0,0,0,0,0,0,0,37,m,white-european,0,0,united kingdom,1.0,self,0
+1,0,0,0,0,0,0,1,1,1,30,f,white-european,0,1,united kingdom,4.0,self,0
+1,1,1,1,1,1,0,1,1,1,29,f,white-european,0,0,new zealand,9.0,self,1
+1,0,1,1,0,0,0,0,0,1,17,f,white-european,0,1,romania,4.0,self,0
+0,0,0,1,1,1,0,1,0,1,22,f,pasifika,0,0,new zealand,5.0,self,0
+1,1,1,0,1,1,1,0,1,1,19,f,latino,0,1,brazil,8.0,self,1
+1,1,1,1,1,0,0,1,1,1,42,f,white-european,0,1,sweden,8.0,self,1
+1,1,0,0,0,0,0,1,0,1,37,f,white-european,0,0,united kingdom,4.0,self,0
+1,0,0,0,1,0,1,1,0,0,28,f,white-european,0,0,australia,4.0,self,0
+1,0,0,1,1,0,1,0,0,0,22,m,others,0,0,new zealand,4.0,self,0
+1,1,0,0,0,0,0,1,0,0,26,f,pasifika,0,0,tonga,3.0,self,0
+0,0,0,0,0,0,0,0,1,0,21,m,pasifika,0,0,oman,1.0,self,0
+0,1,1,0,0,0,0,1,0,0,26,f,south asian,0,0,india,3.0,self,0
+1,0,0,0,0,0,0,1,0,0,39,f,asian,0,0,philippines,2.0,self,0
+1,0,0,0,0,0,0,0,1,1,26,m,asian,0,0,new zealand,3.0,self,0
+1,1,0,0,1,0,1,1,0,0,26,m,asian,0,0,india,5.0,self,0
+0,0,0,0,1,1,0,1,0,1,21,m,south asian,0,0,india,4.0,self,0
+0,0,0,0,0,0,0,0,0,0,25,m,asian,0,0,india,0.0,self,0
+0,0,1,0,1,1,1,1,0,1,26,m,south asian,0,0,new zealand,6.0,self,0
+1,1,0,1,1,0,1,1,0,1,30,f,white-european,0,0,united states,7.0,self,1
+1,0,0,1,1,1,1,0,0,0,19,f,asian,0,0,india,5.0,parent,0
+1,0,0,0,0,1,1,0,0,0,19,f,asian,0,0,india,3.0,parent,0
+1,0,1,1,1,1,1,1,1,1,25,f,white-european,0,1,new zealand,9.0,self,1
+0,0,1,1,0,1,0,1,1,1,23,m,white-european,0,0,united kingdom,6.0,self,0
+1,0,0,0,1,0,0,0,0,1,31,m,asian,0,0,sri lanka,3.0,parent,0
+0,1,0,0,0,0,0,1,1,1,27,m,asian,0,0,new zealand,4.0,self,0
+1,1,0,1,1,1,1,1,0,1,29,f,middle eastern ,0,0,united arab emirates,8.0,self,1
+1,0,1,1,1,1,0,1,1,0,38,f,white-european,0,0,united kingdom,7.0,parent,1
+1,1,1,1,1,1,0,1,0,1,23,f,white-european,0,0,united states,8.0,self,1
+1,1,1,0,1,0,1,1,0,0,27,m,white-european,0,0,united states,6.0,self,0
+1,1,1,1,1,1,0,1,1,1,27,f,white-european,0,0,canada,9.0,self,1
+1,1,1,1,1,1,0,0,1,0,42,m,white-european,0,0,united states,7.0,self,1
+1,1,1,1,1,1,0,1,1,1,20,m,white-european,0,0,united kingdom,9.0,self,1
+1,0,1,1,1,1,1,1,1,1,17,f,white-european,0,0,united states,9.0,self,1
+1,0,0,0,0,0,0,0,0,0,20,f,black,0,0,spain,1.0,self,0
+1,0,0,1,1,1,1,1,0,1,30,m,asian,1,0,sierra leone,7.0,self,1
+1,0,1,1,1,1,1,1,1,1,28,f,white-european,0,1,australia,9.0,self,1
+1,1,0,0,1,1,1,1,0,1,26,f,white-european,0,0,new zealand,7.0,self,1
+0,0,0,0,0,0,0,0,0,0,26,f,white-european,0,0,australia,0.0,self,0
+1,0,0,1,1,1,0,1,0,1,31,m,middle eastern ,0,1,canada,6.0,self,0
+1,0,1,1,0,0,1,0,0,1,40,f,white-european,0,0,united kingdom,5.0,self,0
+1,0,0,0,1,0,0,0,1,1,39,f,white-european,0,1,ireland,4.0,relative,0
+1,1,0,0,0,0,0,1,0,0,18,f,white-european,0,0,united states,3.0,self,0
+1,0,0,0,0,0,0,1,0,1,24,m,black,0,0,ethiopia,3.0,self,0
+1,1,0,0,0,0,0,1,0,0,23,m,south asian,0,0,india,3.0,self,0
+1,0,1,1,0,0,0,1,0,1,24,m,asian,0,0,india,5.0,self,0
+0,1,0,0,1,1,0,1,1,0,24,m,asian,0,0,new zealand,5.0,self,0
+1,0,1,1,0,0,0,1,1,1,27,m,asian,0,0,new zealand,6.0,self,0
+0,1,1,0,0,1,0,0,1,1,24,m,asian,0,0,new zealand,5.0,self,0
+0,0,0,0,1,0,0,0,0,1,25,m,asian,0,0,india,2.0,self,0
+1,0,0,0,0,0,1,0,0,1,22,m,asian,0,0,new zealand,3.0,self,0
+0,1,0,0,0,0,0,0,0,1,40,f,asian,0,0,new zealand,2.0,self,0
+0,0,1,1,0,0,0,1,0,1,23,m,asian,0,0,india,4.0,self,0
+1,0,0,0,0,0,0,1,0,0,29,m,south asian,0,0,india,2.0,self,0
+1,0,1,0,0,0,0,1,0,0,25,m,asian,0,0,india,3.0,self,0
+1,0,0,1,1,0,0,1,0,0,27,m,asian,0,0,india,4.0,self,0
+0,0,0,0,0,0,0,1,0,0,22,m,south asian,0,0,new zealand,1.0,self,0
+1,0,0,1,1,1,1,1,1,1,28,m,white-european,0,0,united states,8.0,parent,1
+1,0,1,1,1,1,1,1,1,1,20,m,white-european,0,0,australia,9.0,self,1
+1,1,1,1,1,1,1,1,1,1,19,f,white-european,0,0,romania,10.0,self,1
+1,1,0,0,1,1,1,1,0,1,37,f,others,0,0,united states,7.0,self,1
+1,1,1,1,1,0,1,1,1,0,35,m,white-european,1,1,united states,8.0,self,1
+0,0,0,0,1,0,0,1,0,0,26,m,asian,0,0,new zealand,2.0,self,0
+0,1,1,1,1,0,1,1,0,1,23,m,asian,0,0,viet nam,7.0,self,1
+1,1,0,0,1,0,0,0,0,1,32,f,south asian,0,0,new zealand,4.0,self,0
+0,0,1,0,1,0,1,0,1,1,30,m,asian,0,0,sri lanka,5.0,self,0
+1,0,0,0,1,0,1,0,0,1,31,m,asian,0,0,sri lanka,4.0,self,0
+0,0,0,0,0,0,1,1,0,1,28,f,asian,0,0,new zealand,3.0,self,0
+1,0,0,0,0,1,0,1,0,1,29,f,asian,0,0,sri lanka,4.0,self,0
+0,1,0,0,1,0,0,1,0,1,29,f,south asian,0,0,sri lanka,4.0,self,0
+1,0,0,1,0,0,0,0,1,1,29,f,asian,0,0,india,4.0,self,0
+1,0,0,0,0,0,1,1,0,0,31,m,asian,0,0,india,3.0,self,0
+0,0,0,0,0,0,0,0,0,0,36,m,asian,0,0,india,0.0,parent,0
+0,1,0,0,0,0,0,1,0,0,32,f,south asian,0,0,india,2.0,self,0
+0,0,0,0,0,0,0,1,0,0,34,f,south asian,0,0,new zealand,1.0,self,0
+1,1,0,0,0,0,0,1,0,0,24,m,asian,0,0,sri lanka,3.0,self,0
+1,0,1,0,1,0,1,1,0,1,24,f,asian,0,0,new zealand,6.0,self,0
+1,0,0,0,1,0,1,1,0,1,42,m,asian,0,0,sri lanka,5.0,self,0
+0,0,1,0,0,0,0,1,1,1,26,f,others,0,0,india,4.0,self,0
+1,0,0,0,1,0,1,1,0,0,27,f,asian,0,0,sri lanka,4.0,self,0
+0,0,1,1,1,0,0,1,1,1,36,f,latino,0,1,brazil,6.0,self,0
+1,1,1,1,1,0,0,1,1,1,36,f,latino,0,1,brazil,8.0,self,1
+1,0,1,1,0,0,1,1,0,1,55,m,hispanic,0,0,united states,6.0,self,0
+1,1,0,1,0,0,1,0,0,0,23,f,asian,0,0,new zealand,4.0,self,0
+0,0,1,1,1,0,0,0,0,1,22,f,asian,0,0,sri lanka,4.0,self,0
+1,0,0,0,0,0,0,1,0,0,42,f,middle eastern ,0,0,france,2.0,parent,0
+1,0,0,1,0,0,0,1,0,0,54,m,white-european,0,0,canada,3.0,self,0
+1,1,0,0,0,0,1,1,1,1,43,f,black,0,0,united states,6.0,self,0
+1,1,1,1,1,1,0,1,1,1,43,f,black,0,0,united states,9.0,self,1
+0,0,1,1,1,0,0,1,1,1,29,m,middle eastern ,0,0,iran,6.0,self,0
+1,0,1,0,1,0,0,1,0,1,29,m,middle eastern ,0,0,iran,5.0,self,0
+1,0,1,0,1,0,1,0,0,0,37,m,white-european,0,0,australia,4.0,self,0
+1,0,0,0,1,0,1,0,0,1,39,f,white-european,0,0,australia,4.0,self,0
+1,1,1,1,1,0,0,0,0,0,18,f,asian,0,0,viet nam,5.0,self,0
+0,1,0,1,1,1,0,1,0,1,31,m,white-european,0,0,united states,6.0,others,0
+0,0,1,1,1,0,0,0,0,1,34,m,asian,0,0,new zealand,4.0,self,0
+0,0,1,1,1,0,1,0,0,1,22,m,white-european,0,0,united states,5.0,self,0
+1,0,1,1,1,1,1,0,1,0,28,m,south asian,0,0,india,7.0,self,1
+1,0,0,0,0,0,1,1,0,1,38,m,others,0,1,netherlands,4.0,self,0
+1,0,0,0,0,0,1,1,0,1,28,f,white-european,0,0,australia,4.0,self,0
+1,1,0,1,1,1,0,1,1,1,53,f,white-european,0,1,united states,8.0,self,1
+1,1,1,0,1,0,1,0,0,0,26,m,white-european,0,0,united kingdom,5.0,self,0
+1,1,1,1,1,1,0,1,1,1,37,m,white-european,0,0,united kingdom,9.0,self,1
+1,1,0,1,0,0,0,1,0,1,42,m,latino,1,1,costa rica,5.0,parent,0
+1,0,0,0,0,0,0,1,0,1,43,m,hispanic,0,0,united states,3.0,self,0
+1,0,0,0,0,0,0,1,0,0,32,f,asian,0,0,united kingdom,2.0,self,0
+0,1,0,1,0,0,0,1,0,0,31,m,white-european,0,1,united kingdom,3.0,self,0
+1,0,1,1,1,1,1,1,1,1,53,f,white-european,0,0,united states,9.0,self,1
+1,1,1,1,1,1,1,1,1,1,28,m,white-european,0,0,united states,10.0,self,1
+1,0,1,1,1,1,1,1,1,1,38,m,white-european,0,0,germany,9.0,self,1
+1,1,1,0,1,1,0,1,1,0,31,m,white-european,0,0,united states,7.0,self,1
+1,1,1,1,0,0,0,0,0,0,31,f,pasifika,0,1,united states,4.0,self,0
+1,1,1,1,1,0,1,1,1,1,21,f,white-european,0,0,australia,9.0,self,1
+1,1,0,1,1,0,0,0,1,1,25,f,white-european,0,0,united states,6.0,self,0
+1,1,0,1,1,0,0,1,1,1,25,f,white-european,0,0,united states,7.0,self,1
+1,1,1,1,1,1,1,0,1,1,60,f,white-european,0,1,united states,9.0,relative,1
+1,0,1,1,0,0,0,0,0,0,39,m,white-european,0,1,united states,3.0,self,0
+1,1,1,1,1,1,1,1,1,1,53,m,white-european,0,0,united states,10.0,self,1
+1,1,1,1,1,1,1,1,1,1,20,m,middle eastern ,0,1,united states,10.0,parent,1
+1,1,1,0,1,0,0,1,1,1,25,f,white-european,0,0,united states,7.0,self,1
+1,1,1,1,0,0,1,1,0,0,50,m,white-european,0,0,united kingdom,6.0,self,0
+1,0,0,1,1,1,1,1,1,1,28,f,white-european,0,0,united states,8.0,self,1
+1,0,1,1,1,1,1,1,1,1,37,f,white-european,0,1,united kingdom,9.0,self,1
+0,0,0,1,0,1,0,1,1,1,30,m,asian,0,1,india,5.0,self,0
+1,1,0,0,0,1,1,1,0,1,32,f,white-european,0,0,united kingdom,6.0,self,0
+1,0,1,1,0,0,0,0,0,1,34,f,white-european,0,0,united states,4.0,self,0
+1,1,1,1,0,0,0,0,0,1,42,m,white-european,0,0,united states,5.0,self,0
+1,1,0,0,1,1,1,1,1,1,22,f,black,0,0,spain,8.0,self,1
+1,0,0,0,0,0,1,1,0,1,37,f,?,1,0,united arab emirates,4.0,?,0
+1,1,0,0,0,0,0,1,0,1,39,m,white-european,0,1,united states,4.0,parent,0
+1,1,0,1,1,0,1,1,0,1,18,m,white-european,0,0,bangladesh,7.0,self,1
+1,0,0,1,0,0,0,0,0,0,54,f,white-european,0,1,united states,2.0,parent,0
+1,1,0,0,0,0,0,1,0,0,42,m,white-european,0,0,united kingdom,3.0,self,0
+0,0,1,0,0,0,0,0,0,0,27,f,?,0,0,afghanistan,1.0,?,0
+1,1,1,1,1,0,0,1,0,0,22,m,white-european,0,0,united kingdom,6.0,self,0
+1,0,1,1,0,1,1,1,1,1,22,m,white-european,0,0,united kingdom,8.0,self,1
+1,1,1,1,1,1,1,0,1,1,21,f,white-european,0,0,united kingdom,9.0,self,1
+0,1,0,1,0,0,0,1,0,1,28,f,white-european,0,0,united states,4.0,self,0
+1,1,1,1,1,1,1,0,1,1,17,m,asian,1,0,india,9.0,relative,1
+0,1,0,0,0,0,0,0,0,0,28,m,white-european,0,0,united states,1.0,self,0
+0,0,0,1,1,0,1,1,0,1,21,m,latino,0,0,mexico,5.0,self,0
+1,1,1,1,1,1,1,1,1,1,31,f,asian,0,0,new zealand,10.0,self,1
+1,0,0,0,0,0,1,1,0,0,20,m,south asian,0,0,new zealand,3.0,self,0
+1,0,0,1,0,0,0,0,0,0,21,m,white-european,0,0,united kingdom,2.0,self,0
+1,1,0,0,1,0,0,0,0,0,22,m,white-european,0,0,new zealand,3.0,self,0
+0,1,0,0,0,0,0,1,1,1,21,m,white-european,0,0,new zealand,4.0,self,0
+0,1,1,0,0,0,0,0,0,0,24,m,black,0,0,new zealand,2.0,self,0
+1,0,0,0,0,0,0,1,0,0,24,m,south asian,0,0,india,2.0,self,0
+1,0,0,0,1,1,1,1,0,1,25,m,asian,0,0,new zealand,6.0,self,0
+1,0,0,0,0,0,0,0,0,1,17,m,south asian,0,0,new zealand,2.0,self,0
+0,1,0,0,0,0,0,1,1,0,21,m,?,0,0,russia,3.0,?,0
+1,0,0,0,0,0,0,1,0,0,23,m,pasifika,0,0,new zealand,2.0,self,0
+1,0,0,1,1,0,1,1,0,0,21,m,asian,0,0,new zealand,5.0,self,0
+1,0,0,0,1,0,1,1,1,1,22,m,others,0,0,new zealand,6.0,self,0
+1,0,0,0,1,0,0,1,0,1,24,f,asian,0,0,india,4.0,self,0
+0,0,1,0,1,1,0,0,1,1,34,m,others,0,0,new zealand,5.0,self,0
+1,0,1,0,1,0,1,1,0,1,30,m,asian,0,0,new zealand,6.0,self,0
+1,0,0,0,0,0,1,1,0,1,29,f,asian,0,0,india,4.0,self,0
+1,0,0,1,1,0,1,1,0,0,20,m,pasifika,0,0,new zealand,5.0,self,0
+0,0,1,1,0,1,0,1,1,1,23,m,white-european,0,0,new zealand,6.0,self,0
+0,0,0,0,0,0,0,1,0,1,26,m,asian,0,0,india,2.0,self,0
+1,0,0,1,1,1,1,1,1,1,20,m,south asian,0,0,new zealand,8.0,self,1
+1,0,0,0,0,0,1,1,0,0,41,m,asian,0,0,new zealand,3.0,self,0
+1,0,0,1,0,0,1,1,0,0,24,m,asian,0,0,india,4.0,self,0
+0,0,0,1,0,0,0,1,0,0,35,m,asian,0,0,india,2.0,self,0
+0,0,0,1,0,0,1,0,0,0,23,m,south asian,0,0,india,2.0,self,0
+1,0,1,0,0,0,1,0,0,0,36,m,white-european,0,0,new zealand,3.0,self,0
+1,1,0,0,1,0,0,1,0,0,33,m,turkish,0,0,armenia,4.0,self,0
+1,0,0,0,0,1,0,1,1,1,24,m,south asian,0,0,india,5.0,self,0
+0,1,1,0,1,0,0,1,0,0,25,m,?,0,0,new zealand,4.0,?,0
+1,0,0,0,1,1,0,1,0,1,25,m,asian,0,0,india,5.0,self,0
+1,0,0,0,0,0,1,1,1,1,25,m,asian,0,0,india,5.0,self,0
+0,0,0,0,0,0,1,1,0,1,24,m,asian,0,0,india,3.0,self,0
+1,0,1,0,1,0,0,1,0,1,27,f,south asian,0,0,india,5.0,self,0
+1,0,0,0,0,0,1,1,0,0,26,m,asian,0,0,india,3.0,self,0
+0,0,0,0,0,0,0,0,0,0,26,m,others,0,0,new zealand,0.0,self,0
+1,0,0,0,1,0,0,1,1,0,23,f,asian,0,0,india,4.0,self,0
+1,1,1,0,1,0,1,1,0,1,30,m,asian,0,0,new zealand,7.0,self,1
+1,0,0,1,0,0,0,0,1,0,25,m,asian,0,0,iceland,3.0,self,0
+1,0,0,0,0,0,0,1,0,1,23,m,pasifika,0,0,new zealand,3.0,self,0
+1,0,1,1,1,0,0,1,0,0,34,f,white-european,0,0,united states,5.0,self,0
+1,0,0,1,1,0,1,1,0,1,20,f,asian,0,0,new zealand,6.0,self,0
+1,0,1,1,1,1,0,0,1,1,22,f,?,0,1,russia,7.0,?,1
+1,1,1,1,0,0,0,1,1,1,33,f,black,0,1,france,7.0,parent,1
+1,1,1,1,1,1,1,1,1,1,46,m,white-european,0,0,netherlands,10.0,self,1
+1,1,0,0,0,0,0,0,0,0,17,m,white-european,0,0,united kingdom,2.0,others,0
+1,1,1,0,0,0,0,1,0,0,45,f,white-european,0,1,united states,4.0,self,0
+0,1,1,1,0,0,0,0,1,0,26,m,asian,0,0,india,4.0,others,0
+1,0,0,0,1,0,0,0,1,0,30,m,?,0,0,jordan,3.0,?,0
+1,1,0,0,0,0,0,0,0,0,32,f,?,0,1,jordan,2.0,?,0
+1,0,1,1,1,1,1,1,1,1,38,f,white-european,0,0,united kingdom,9.0,self,1
+0,1,1,0,1,0,0,0,0,0,26,m,hispanic,1,0,nicaragua,3.0,self,0
+1,0,0,0,0,0,0,0,0,0,29,f,hispanic,0,1,united states,1.0,self,0
+1,1,1,1,1,0,0,1,1,1,33,m,white-european,0,0,australia,8.0,self,1
+0,1,1,0,1,1,1,0,1,1,32,f,black,0,0,france,7.0,parent,1
+1,1,1,1,1,1,1,1,1,1,44,f,white-european,0,0,united states,10.0,self,1
+0,1,0,0,0,0,1,0,0,1,47,f,white-european,1,0,united kingdom,3.0,self,0
+0,0,0,1,1,1,1,0,1,1,32,f,?,0,0,hong kong,6.0,?,0
+0,0,0,0,0,0,0,0,0,0,40,m,white-european,0,0,new zealand,0.0,self,0
+1,0,0,1,1,0,0,1,0,1,40,m,white-european,0,0,united states,5.0,self,0
+0,0,0,0,0,0,0,0,0,0,44,f,white-european,0,0,new zealand,0.0,self,0
+1,1,1,0,1,1,1,0,1,1,56,m,white-european,1,0,united kingdom,8.0,self,1
+1,1,1,0,1,1,1,0,1,1,23,f,white-european,0,0,ireland,8.0,self,1
+1,1,0,1,1,0,0,1,1,1,32,f,black,0,0,canada,7.0,self,1
+0,1,1,1,0,0,0,1,0,1,27,m,white-european,0,1,united kingdom,5.0,self,0
+1,0,0,0,1,0,1,0,0,1,28,f,white-european,0,1,united kingdom,4.0,self,0
+0,0,0,0,0,0,0,0,0,0,40,f,middle eastern ,0,0,afghanistan,0.0,parent,0
+1,0,1,1,1,1,0,0,1,1,45,f,white-european,0,0,canada,7.0,self,1
+1,1,1,1,1,1,0,0,1,1,19,f,white-european,1,0,united kingdom,8.0,parent,1
+1,1,1,1,0,1,0,1,1,1,55,m,white-european,0,1,united states,8.0,others,1
+1,0,0,1,0,0,1,1,0,1,27,f,white-european,1,0,australia,5.0,self,0
+1,1,1,1,1,1,1,0,1,1,19,f,white-european,1,0,united kingdom,9.0,self,1
+1,0,0,1,0,0,0,1,0,0,29,m,white-european,0,0,ireland,3.0,self,0
+1,1,1,1,1,1,1,1,1,1,33,f,white-european,1,0,united kingdom,10.0,self,1
+0,0,1,1,1,1,1,1,0,0,48,f,white-european,0,0,netherlands,6.0,self,0
+0,0,0,0,0,0,0,1,1,0,37,f,others,0,0,united kingdom,2.0,self,0
+1,1,1,1,1,0,0,0,1,0,30,m,asian,0,0,afghanistan,6.0,self,0
+1,1,0,1,0,0,0,0,0,1,37,f,white-european,0,0,united kingdom,4.0,self,0
+1,0,0,1,1,0,1,1,1,1,28,f,?,0,0,saudi arabia,7.0,?,1
+1,0,0,1,1,1,1,1,1,1,20,f,white-european,0,0,austria,8.0,self,1
+1,1,1,1,1,1,0,0,1,1,25,f,others,0,0,united states,8.0,self,1
+1,1,1,1,1,1,0,1,0,0,58,f,middle eastern ,0,0,united kingdom,7.0,self,1
+1,0,1,0,0,0,0,0,0,0,36,f,white-european,0,0,united states,2.0,self,0
+0,0,1,1,1,0,0,1,0,0,36,m,white-european,1,0,united states,4.0,self,0
+1,0,1,0,1,1,1,1,1,0,19,m,hispanic,0,0,united states,7.0,self,1
+1,0,1,1,1,1,0,1,1,0,19,m,hispanic,0,0,united states,7.0,self,1
+1,0,0,1,1,0,0,1,0,1,22,f,white-european,0,0,new zealand,5.0,self,0
+1,1,0,0,0,0,0,1,0,0,20,m,?,0,0,united arab emirates,3.0,?,0
+0,1,0,0,0,0,1,1,0,1,24,f,middle eastern ,0,0,united arab emirates,4.0,self,0
+0,0,0,1,1,0,0,1,1,0,19,m,middle eastern ,0,0,united arab emirates,4.0,self,0
+1,1,1,0,1,0,0,1,0,1,21,m,others,0,0,united arab emirates,6.0,self,0
+0,0,0,0,0,0,0,0,0,0,20,m,middle eastern ,0,0,united arab emirates,0.0,self,0
+1,1,0,0,0,0,0,0,0,0,18,f,middle eastern ,0,0,united arab emirates,2.0,self,0
+0,1,1,0,0,0,0,1,0,1,23,f,middle eastern ,0,0,united arab emirates,4.0,self,0
+1,1,1,0,1,1,1,1,0,1,22,m,middle eastern ,0,0,united arab emirates,8.0,self,1
+1,1,0,1,1,0,0,0,0,0,18,f,south asian,0,1,bangladesh,4.0,self,0
+1,0,0,0,0,0,0,0,0,1,37,f,?,0,0,united arab emirates,2.0,?,0
+1,1,1,0,1,0,0,1,0,0,18,m,middle eastern ,0,0,united arab emirates,5.0,relative,0
+1,1,1,0,1,0,0,1,0,0,18,m,middle eastern ,0,0,united arab emirates,5.0,relative,0
+0,0,0,0,1,0,0,1,0,0,18,m,middle eastern ,0,0,united arab emirates,2.0,relative,0
+1,1,1,0,0,0,0,1,0,0,18,m,middle eastern ,0,0,united arab emirates,4.0,relative,0
+0,1,0,0,0,0,1,1,0,0,18,m,middle eastern ,0,0,united arab emirates,3.0,relative,0
+1,1,1,0,0,0,0,1,0,0,18,m,middle eastern ,0,0,united arab emirates,4.0,relative,0
+1,1,1,1,1,1,1,1,1,1,19,m,white-european,0,0,austria,10.0,self,1
+1,0,0,1,1,1,1,0,1,1,55,m,white-european,0,0,united kingdom,7.0,self,1
+1,0,0,0,0,1,1,0,1,1,32,f,asian,0,0,canada,5.0,parent,0
+1,1,0,1,0,0,1,1,0,0,50,m,white-european,1,0,united kingdom,5.0,self,0
+1,1,1,1,0,0,1,1,0,0,40,m,white-european,0,0,united kingdom,6.0,self,0
+1,0,0,1,1,1,0,0,0,0,47,m,middle eastern ,0,0,jordan,4.0,self,0
+1,1,0,0,0,0,0,0,0,1,20,m,?,0,0,jordan,3.0,?,0
+1,0,1,0,0,0,1,1,0,0,22,f,?,0,0,jordan,4.0,?,0
+1,0,0,0,0,0,1,0,0,0,21,f,?,0,0,jordan,2.0,?,0
+1,0,1,1,0,0,1,1,1,0,21,f,?,0,0,jordan,6.0,?,0
+1,1,1,1,1,0,0,1,0,0,19,m,?,0,0,jordan,6.0,?,0
+1,0,1,1,0,0,0,0,0,0,21,f,?,0,0,jordan,3.0,?,0
+1,0,0,1,0,0,0,0,0,0,21,m,?,0,0,jordan,2.0,?,0
+0,1,0,1,0,1,0,1,0,1,23,f,?,0,0,jordan,5.0,?,0
+1,0,0,0,0,0,0,0,0,0,21,m,?,0,0,jordan,1.0,?,0
+1,0,0,0,1,0,1,1,1,0,21,m,?,0,0,jordan,5.0,?,0
+0,0,0,0,0,0,0,1,0,0,23,m,?,0,0,jordan,1.0,?,0
+1,0,1,1,0,1,1,1,1,1,20,f,?,0,0,jordan,8.0,?,1
+1,1,1,0,0,0,0,1,0,1,21,f,?,0,0,jordan,5.0,?,0
+1,1,1,0,1,0,1,1,1,1,20,m,?,0,0,argentina,8.0,?,1
+1,1,0,0,0,0,1,1,0,0,19,m,?,0,0,jordan,4.0,?,0
+0,1,0,0,0,0,0,1,0,0,21,m,?,0,0,jordan,2.0,?,0
+1,0,1,0,0,0,1,0,0,0,26,m,?,0,1,jordan,3.0,?,0
+0,0,0,1,0,0,0,1,0,0,21,m,?,0,0,jordan,2.0,?,0
+0,0,0,0,1,0,0,1,0,0,19,m,?,0,0,japan,2.0,?,0
+1,0,0,1,0,0,0,1,0,1,22,m,middle eastern ,0,0,united arab emirates,4.0,parent,0
+1,0,0,0,0,0,0,1,0,0,19,f,middle eastern ,0,0,united arab emirates,2.0,self,0
+1,0,0,1,0,0,1,0,0,1,22,m,middle eastern ,0,0,united arab emirates,4.0,self,0
+0,0,1,0,0,0,0,0,0,1,20,m,middle eastern ,0,0,united arab emirates,2.0,self,0
+1,0,1,0,1,0,0,1,0,0,23,m,middle eastern ,0,0,united arab emirates,4.0,self,0
+0,0,0,0,0,1,0,1,0,0,19,f,?,0,0,ukraine,2.0,?,0
+0,0,0,0,1,0,0,1,0,1,20,m,middle eastern ,0,0,united arab emirates,3.0,parent,0
+0,1,0,1,0,0,0,0,0,0,24,m,middle eastern ,0,0,united arab emirates,2.0,self,0
+0,1,1,0,0,0,0,1,0,1,19,m,middle eastern ,0,0,united arab emirates,4.0,self,0
+1,0,0,0,0,1,0,1,0,1,20,m,?,0,0,united arab emirates,4.0,?,0
+1,0,1,0,1,0,0,1,0,1,23,m,middle eastern ,0,1,united arab emirates,5.0,self,0
+0,0,1,1,0,0,1,0,0,1,20,m,others,0,0,russia,4.0,self,0
+1,0,1,0,1,0,0,1,0,1,20,m,middle eastern ,0,0,united arab emirates,5.0,self,0
+0,0,0,0,0,0,0,1,1,0,20,m,?,1,0,united arab emirates,2.0,?,0
+1,0,1,0,0,0,0,0,0,1,20,f,?,0,0,united arab emirates,3.0,?,0
+1,0,0,1,1,0,0,1,0,1,21,f,asian,0,0,afghanistan,5.0,self,0
+0,1,0,0,0,0,0,0,0,1,19,m,?,0,0,kazakhstan,2.0,?,0
+1,0,0,0,0,0,0,1,0,1,20,f,middle eastern ,0,0,united arab emirates,3.0,self,0
+1,0,0,1,1,0,1,0,0,1,20,m,middle eastern ,0,0,saudi arabia,5.0,self,0
+1,0,0,0,0,1,0,0,1,0,25,m,middle eastern ,1,1,armenia,3.0,relative,0
+1,0,0,0,0,0,0,1,0,0,20,f,middle eastern ,0,0,united arab emirates,2.0,self,0
+1,0,0,0,0,1,1,1,0,1,22,m,middle eastern ,0,0,americansamoa,5.0,self,0
+1,0,0,0,0,0,0,1,0,0,20,f,?,0,0,united arab emirates,2.0,?,0
+0,1,0,0,1,1,0,0,0,0,20,m,?,0,0,united arab emirates,3.0,?,0
+0,0,0,1,0,0,1,0,0,0,20,f,?,0,0,jordan,2.0,?,0
+1,0,0,0,0,0,0,1,0,0,23,f,?,0,0,jordan,2.0,?,0
+1,1,1,1,1,0,1,0,1,1,21,f,?,0,0,jordan,8.0,?,1
+1,0,0,0,0,0,1,1,0,1,22,m,?,0,0,jordan,4.0,?,0
+1,1,0,0,0,0,0,1,0,0,21,f,?,0,0,jordan,3.0,?,0
+1,0,1,0,0,0,0,0,0,1,20,f,?,0,0,jordan,3.0,?,0
+1,0,0,1,0,0,0,0,0,0,22,f,?,0,0,jordan,2.0,?,0
+1,0,1,1,1,0,1,1,0,0,21,f,?,1,0,jordan,6.0,?,0
+1,1,0,0,1,0,0,1,0,0,20,f,?,0,0,jordan,4.0,?,0
+0,1,0,0,0,0,0,1,0,0,20,f,middle eastern ,0,0,united arab emirates,2.0,self,0
+1,0,0,0,1,0,0,1,0,0,21,m,?,0,0,jordan,3.0,?,0
+1,0,1,1,1,0,0,0,1,1,21,m,middle eastern ,0,0,united arab emirates,6.0,self,0
+0,1,0,0,0,1,0,1,0,1,23,f,middle eastern ,0,0,united arab emirates,4.0,self,0
+1,1,0,0,0,0,0,1,0,0,21,f,turkish,0,0,united arab emirates,3.0,self,0
+1,0,0,0,1,1,0,1,0,1,22,f,black,0,0,united arab emirates,5.0,self,0
+0,1,1,1,0,1,0,1,0,0,19,f,?,0,0,united arab emirates,5.0,?,0
+1,1,1,0,1,0,0,0,0,0,20,f,asian,0,0,united arab emirates,4.0,self,0
+0,1,0,0,0,0,0,1,0,1,21,f,others,0,0,united arab emirates,3.0,self,0
+0,1,1,0,0,0,0,1,0,0,26,m,middle eastern ,0,0,united arab emirates,3.0,self,0
+1,0,0,0,0,0,0,0,0,0,19,f,?,0,0,kazakhstan,1.0,?,0
+1,0,0,1,0,0,1,1,0,1,20,f,?,0,0,united arab emirates,5.0,?,0
+1,0,0,0,0,0,0,1,0,1,26,f,?,0,0,united arab emirates,3.0,?,0
+1,0,0,1,0,0,1,0,0,1,23,f,black,0,0,united arab emirates,4.0,self,0
+1,0,0,1,0,0,1,0,0,1,28,f,?,0,0,united arab emirates,4.0,?,0
+0,1,0,1,1,0,0,0,0,0,19,f,middle eastern ,0,0,united arab emirates,3.0,self,0
+1,0,0,0,0,0,1,1,0,0,20,f,middle eastern ,0,0,united arab emirates,3.0,self,0
+0,1,0,0,1,0,1,1,0,1,19,f,black,0,0,united arab emirates,5.0,self,0
+1,0,1,1,1,1,1,1,1,0,24,m,asian,0,0,india,8.0,self,1
+1,0,0,1,1,0,0,1,0,1,19,f,south asian,0,0,united arab emirates,5.0,self,0
+1,1,0,0,0,0,0,0,0,0,22,f,middle eastern ,0,0,united arab emirates,2.0,self,0
+1,1,0,1,0,0,0,0,0,1,20,f,middle eastern ,0,0,united arab emirates,4.0,self,0
+0,1,0,1,0,0,0,1,0,0,21,m,middle eastern ,0,0,united arab emirates,3.0,self,0
+0,0,1,1,1,0,0,1,0,0,24,f,others,0,0,united arab emirates,4.0,self,0
+0,0,1,1,1,0,0,0,0,1,18,f,middle eastern ,0,0,united arab emirates,4.0,self,0
+1,0,1,1,1,0,1,1,0,1,19,f,middle eastern ,0,0,united arab emirates,7.0,self,1
+1,0,1,0,0,0,0,0,0,0,19,f,middle eastern ,0,0,united arab emirates,2.0,self,0
+1,0,0,0,0,0,1,1,0,1,31,m,middle eastern ,1,0,united arab emirates,4.0,self,0
+1,1,0,1,0,0,1,1,0,0,19,m,middle eastern ,0,0,united arab emirates,5.0,self,0
+1,0,0,0,0,0,1,0,1,1,21,f,middle eastern ,0,0,united arab emirates,4.0,self,0
+1,0,0,0,1,0,1,0,0,1,20,m,middle eastern ,0,0,united arab emirates,4.0,self,0
+1,0,1,0,1,0,1,1,0,1,26,f,middle eastern ,0,0,united arab emirates,6.0,self,0
+0,0,0,0,0,0,1,0,0,0,27,m,middle eastern ,0,0,afghanistan,1.0,self,0
+1,0,1,0,0,1,0,1,0,0,23,f,middle eastern ,0,0,united arab emirates,4.0,self,0
+0,1,0,1,0,0,0,0,0,0,29,f,?,0,0,united arab emirates,2.0,?,0
+1,1,1,1,0,0,1,0,0,0,23,m,middle eastern ,0,0,united arab emirates,5.0,self,0
+1,0,0,0,0,0,1,1,0,1,23,m,turkish,0,0,united arab emirates,4.0,others,0
+1,0,1,1,1,1,0,1,1,1,24,m,asian,0,1,india,8.0,self,1
+1,0,0,1,0,0,1,1,0,0,21,m,?,0,0,jordan,4.0,?,0
+0,0,0,0,1,0,1,0,0,0,20,f,?,0,0,brazil,2.0,?,0
+1,0,1,0,1,0,1,1,1,0,20,m,?,0,0,jordan,6.0,?,0
+1,1,1,1,1,1,1,0,1,1,32,f,black,0,0,france,9.0,parent,1
+1,1,1,1,1,1,1,1,1,1,61,m,white-european,1,1,uruguay,10.0,self,1
+1,0,0,1,1,0,0,0,0,0,19,m,?,0,0,jordan,3.0,?,0
+1,1,1,1,1,1,0,1,1,0,35,f,white-european,0,0,italy,8.0,self,1
+1,0,0,0,0,1,0,0,0,1,34,f,white-european,0,0,ukraine,3.0,self,0
+0,0,1,1,0,0,0,0,0,0,23,f,middle eastern ,0,0,united arab emirates,2.0,self,0
+1,1,1,1,0,0,0,0,0,1,19,f,white-european,0,0,serbia,5.0,self,0
+1,1,0,0,1,1,0,1,0,1,36,f,others,0,0,philippines,6.0,parent,0
+1,1,0,0,0,0,0,1,0,1,21,f,?,0,0,jordan,4.0,?,0
+0,1,0,0,0,0,0,1,0,0,23,m,white-european,0,0,united states,2.0,self,0
+1,0,1,1,1,0,1,0,0,1,17,m,black,0,0,united states,6.0,relative,0
+1,0,1,0,0,0,0,0,0,0,22,m,white-european,0,0,portugal,2.0,self,0
+0,1,1,1,1,0,1,0,0,1,33,m,white-european,0,1,australia,6.0,relative,0
+1,1,1,1,1,0,0,1,0,1,23,f,asian,0,0,malaysia,7.0,self,1
+0,1,1,1,1,1,0,1,0,1,35,f,white-european,0,1,sweden,7.0,self,1
+1,0,0,0,0,0,0,1,0,1,21,m,white-european,0,1,australia,3.0,self,0
+1,0,0,1,1,0,1,1,1,1,20,f,white-european,0,0,austria,7.0,self,1
+1,0,0,0,0,0,0,1,0,0,29,m,white-european,0,0,netherlands,2.0,health care professional,0
+1,1,1,1,1,1,1,0,1,1,59,m,white-european,0,0,united states,9.0,self,1
+1,1,1,0,0,0,0,1,0,1,18,f,white-european,0,0,netherlands,5.0,self,0
+1,1,0,0,0,0,0,1,0,0,19,f,middle eastern ,0,0,united arab emirates,3.0,self,0
+0,0,1,1,0,0,0,1,0,0,24,m,middle eastern ,0,0,united arab emirates,3.0,self,0
+1,1,1,1,1,0,0,1,1,0,36,f,white-european,0,0,italy,7.0,self,1
+0,0,1,1,1,0,0,0,0,1,19,f,?,1,0,jordan,4.0,?,0
+1,1,0,0,0,0,1,0,0,0,17,f,black,0,0,united arab emirates,3.0,self,0
+1,0,0,0,0,0,0,1,0,1,52,m,white-european,1,0,united kingdom,3.0,self,0
+1,1,0,1,1,0,0,0,0,0,18,m,middle eastern ,0,0,united arab emirates,4.0,self,0
+0,0,0,0,0,0,1,0,0,0,30,m,asian,0,0,philippines,1.0,self,0
+0,1,1,1,1,1,0,1,1,1,18,m,middle eastern ,1,0,new zealand,8.0,self,1
+1,1,1,1,1,0,0,1,0,0,27,m,latino,0,0,ecuador,6.0,self,0
+0,0,0,1,0,0,0,0,0,0,52,f,white-european,0,0,united kingdom,1.0,self,0
+0,0,0,0,0,0,0,1,0,0,45,f,asian,0,0,viet nam,1.0,self,0
+0,1,1,1,1,1,0,0,1,0,25,f,others,0,0,afghanistan,6.0,health care professional,0
+0,0,0,1,0,0,1,0,0,1,29,f,white-european,0,0,united kingdom,3.0,self,0
+1,1,0,1,1,1,1,1,0,1,29,f,white-european,1,0,united states,8.0,self,1
+1,0,0,0,0,1,0,0,0,1,18,m,white-european,0,1,netherlands,3.0,self,0
+0,0,1,1,0,1,1,1,1,1,18,m,white-european,0,0,netherlands,7.0,relative,1
+1,0,1,1,0,1,0,0,0,1,17,m,white-european,0,0,netherlands,5.0,relative,0
+1,1,1,1,1,1,1,1,1,1,27,f,asian,0,0,united states,10.0,self,1
+0,0,0,0,0,0,0,1,0,0,22,f,asian,1,0,malaysia,1.0,self,0
+0,0,0,0,0,1,0,1,1,0,23,m,asian,0,0,india,3.0,self,0
+1,1,1,1,1,0,1,1,0,0,25,m,latino,0,0,united kingdom,7.0,self,1
+1,0,1,1,1,0,0,0,0,0,23,f,south asian,0,0,new zealand,4.0,self,0
+1,0,0,0,0,0,0,1,0,1,29,m,asian,0,0,india,3.0,self,0
+1,0,0,1,1,0,1,0,0,0,27,f,asian,0,0,sri lanka,4.0,self,0
+1,0,0,0,0,1,0,1,0,0,27,f,asian,0,0,india,3.0,self,0
+0,0,0,0,0,0,0,0,0,0,43,f,south asian,0,0,india,0.0,parent,0
+1,0,0,0,0,0,0,1,0,0,26,f,asian,0,0,india,2.0,self,0
+1,0,0,0,1,0,0,1,0,1,30,f,asian,0,0,india,4.0,self,0
+0,0,0,0,0,0,0,1,0,0,23,m,white-european,0,0,india,1.0,self,0
+1,0,0,0,1,0,1,1,0,0,29,f,asian,0,0,sri lanka,4.0,self,0
+0,0,0,0,0,0,0,1,0,1,37,m,white-european,0,0,united kingdom,2.0,parent,0
+0,0,0,0,0,0,1,0,0,1,28,f,white-european,0,0,united kingdom,2.0,self,0
+1,1,1,1,0,0,1,1,0,0,25,m,south asian,0,0,united states,6.0,self,0
+1,0,1,1,0,0,1,1,0,0,25,m,others,0,0,india,5.0,self,0
+0,1,0,0,0,0,0,1,1,0,21,m,?,0,0,jordan,3.0,?,0
+1,1,1,1,1,1,1,0,1,1,43,m,white-european,0,0,united kingdom,9.0,self,1
+1,1,0,1,1,1,0,0,1,1,30,f,white-european,0,0,united states,7.0,self,1
+0,1,1,0,0,0,1,0,0,1,18,m,black,0,0,niger,4.0,self,0
+1,1,1,1,0,0,0,1,0,0,18,f,white-european,0,0,romania,5.0,self,0
+1,1,1,1,0,0,1,1,1,0,30,m,others,0,0,canada,7.0,self,1
+0,0,0,0,0,0,0,0,0,0,31,f,white-european,0,0,germany,0.0,self,0
+1,0,0,0,1,0,1,1,0,1,33,m,latino,0,0,mexico,5.0,self,0
+1,1,1,1,1,1,1,1,1,1,33,m,latino,0,0,mexico,10.0,self,1
+1,1,1,1,0,0,1,0,0,1,26,m,white-european,0,0,united kingdom,6.0,self,0
+1,0,1,1,0,0,0,0,0,0,61,f,white-european,0,0,united states,3.0,self,0
+0,0,0,1,0,0,0,1,0,1,46,m,others,0,0,viet nam,3.0,self,0
+0,1,1,1,1,1,1,0,1,1,33,m,asian,0,0,india,8.0,self,1
+1,1,1,1,1,0,1,1,0,1,38,f,black,0,0,canada,8.0,self,1
+1,1,0,0,0,0,0,1,0,0,44,m,black,0,0,france,3.0,parent,0
+0,1,1,1,1,0,0,0,1,0,48,f,black,0,1,france,5.0,parent,0
+1,1,0,1,1,1,0,1,1,1,42,f,latino,1,0,mexico,8.0,self,1
+0,1,0,0,1,0,1,1,0,0,37,m,white-european,0,0,belgium,4.0,self,0
+1,0,1,1,1,0,0,1,0,1,23,f,white-european,0,1,united kingdom,6.0,self,0
+1,0,1,1,1,0,1,1,1,1,24,m,white-european,0,1,united kingdom,8.0,relative,1
+1,0,1,0,1,0,1,1,0,1,41,m,?,1,1,united kingdom,6.0,?,0
+1,0,1,0,0,0,1,0,0,1,41,m,asian,0,0,united kingdom,4.0,self,0
+0,1,1,0,1,0,0,1,0,0,27,m,white-european,0,0,belgium,4.0,self,0
+1,1,1,1,1,1,1,1,1,1,46,f,white-european,1,1,united kingdom,10.0,self,1
+0,1,0,0,0,0,0,0,0,1,40,f,white-european,1,0,united states,2.0,self,0
+0,1,1,1,1,1,1,1,0,1,22,f,white-european,0,0,united states,8.0,self,1
+1,1,1,1,1,1,1,0,1,1,42,m,white-european,0,0,united kingdom,9.0,self,1
+1,1,1,0,0,0,0,0,0,1,18,f,asian,0,0,viet nam,4.0,self,0
+1,0,1,1,0,0,0,0,0,0,44,f,white-european,0,0,united kingdom,3.0,self,0
+1,1,1,1,1,0,1,1,1,1,30,f,white-european,0,0,united states,9.0,self,1
+1,1,1,1,1,1,0,1,1,1,42,m,white-european,0,0,australia,9.0,self,1
+1,1,0,1,0,0,1,0,0,0,35,f,white-european,0,1,united states,4.0,parent,0
+1,0,1,1,1,0,1,0,1,1,40,m,black,0,0,americansamoa,7.0,self,1
+0,1,0,0,0,0,0,0,1,1,50,f,?,0,0,new zealand,3.0,?,0
+0,0,1,1,0,0,0,0,0,1,38,m,middle eastern ,0,0,egypt,3.0,self,0
+1,1,1,1,1,0,0,1,1,1,26,f,white-european,0,1,italy,8.0,self,1
+1,1,1,1,1,0,0,1,0,1,27,f,white-european,0,0,malaysia,7.0,self,1
+1,1,1,1,1,0,1,0,1,0,47,f,white-european,1,1,united states,7.0,self,1
+1,1,0,1,1,1,0,0,0,1,21,m,black,1,1,united states,6.0,parent,0
+1,1,1,1,0,1,0,1,1,1,37,m,white-european,0,0,united kingdom,8.0,self,1
+1,0,0,0,0,0,1,1,0,1,19,f,others,0,0,united kingdom,4.0,self,0
+0,0,0,1,0,0,1,1,0,1,32,m,asian,0,0,united arab emirates,4.0,self,0
+0,0,0,0,1,0,0,1,0,1,26,f,?,0,0,iran,3.0,?,0
+1,1,1,1,1,1,1,1,1,1,46,f,white-european,1,1,australia,10.0,self,1
+0,1,0,0,0,0,0,1,0,0,29,m,black,0,0,france,2.0,self,0
+1,0,0,0,1,0,0,0,0,0,30,f,black,0,0,france,2.0,self,0
+1,1,0,0,0,0,1,1,0,0,32,f,latino,0,0,bolivia,4.0,relative,0
+0,1,1,1,0,0,0,0,0,1,35,f,white-european,1,0,united states,4.0,self,0
+0,1,1,1,1,1,1,1,1,1,22,m,white-european,0,0,united kingdom,9.0,self,1
+0,0,0,1,1,0,1,0,0,1,19,f,?,0,0,iran,4.0,?,0
+0,1,0,0,1,0,0,0,0,1,24,m,?,0,0,iran,3.0,?,0
+0,1,0,0,1,0,0,0,0,0,52,f,?,0,0,iran,2.0,?,0
+0,1,0,0,1,1,0,0,1,1,52,m,?,0,0,iran,5.0,?,0
+1,0,1,0,0,1,0,1,0,0,32,f,white-european,0,0,united states,4.0,self,0
+0,1,1,1,1,1,0,0,0,1,24,m,white-european,0,0,united states,6.0,relative,0
+1,1,1,1,1,1,0,1,1,1,24,m,white-european,0,0,united states,9.0,relative,1
+0,1,0,0,0,0,0,0,0,0,49,f,middle eastern ,1,0,new zealand,1.0,parent,0
+0,1,1,1,1,1,1,1,1,1,30,f,asian,0,0,malaysia,9.0,self,1
+0,1,1,1,1,1,1,1,1,1,30,f,asian,0,1,malaysia,9.0,self,1
+1,0,1,1,1,1,1,1,1,1,35,f,white-european,1,0,united kingdom,9.0,self,1
+1,0,1,1,1,1,1,0,0,1,35,f,white-european,1,0,united kingdom,7.0,self,1
+1,0,1,1,0,0,0,0,0,1,37,f,white-european,0,1,united kingdom,4.0,self,0
+0,1,1,1,0,0,0,1,0,1,43,m,white-european,0,0,united kingdom,5.0,self,0
+1,1,1,1,0,0,1,0,0,1,52,m,white-european,0,0,united kingdom,6.0,self,0
+1,1,1,1,1,1,1,1,1,1,44,m,white-european,0,1,united kingdom,10.0,self,1
+1,1,0,0,0,0,0,0,0,0,46,f,white-european,0,1,united kingdom,2.0,self,0
+1,0,0,0,1,0,0,0,0,1,42,f,white-european,0,1,australia,3.0,self,0
+0,0,1,0,0,0,0,0,0,0,20,m,asian,0,0,aruba,1.0,self,0
+1,1,1,0,1,0,1,0,1,1,18,m,middle eastern ,0,0,new zealand,7.0,self,1
+1,1,1,1,1,1,0,1,1,1,38,m,white-european,0,0,finland,9.0,relative,1
+1,0,0,1,1,0,0,1,0,0,24,f,latino,0,1,mexico,4.0,self,0
+1,1,0,0,0,0,0,1,0,0,32,m,?,0,0,jordan,3.0,?,0
+1,1,0,1,1,0,0,0,0,0,29,m,turkish,0,0,united states,4.0,self,0
+1,1,1,1,1,1,1,1,0,1,22,f,white-european,0,0,united states,9.0,self,1
+0,1,1,1,1,1,0,0,0,1,19,f,white-european,1,0,united kingdom,6.0,self,0
+1,1,1,1,1,1,1,0,1,1,39,f,white-european,0,1,united states,9.0,self,1
+1,0,0,1,1,1,1,1,1,1,17,m,black,0,0,united states,8.0,self,1
+0,1,0,1,0,1,1,0,1,1,19,f,middle eastern ,0,0,iceland,6.0,parent,0
+1,0,0,0,0,0,1,1,1,0,18,m,white-european,0,0,australia,4.0,parent,0
+0,1,0,0,1,1,0,0,1,0,19,m,?,0,0,kazakhstan,4.0,?,0
+0,1,0,0,0,0,0,1,0,0,28,f,turkish,0,0,turkey,2.0,self,0
+0,1,0,1,0,1,0,0,0,1,29,m,asian,0,0,new zealand,4.0,self,0
+1,1,0,0,0,0,1,1,0,0,48,m,white-european,0,0,australia,4.0,self,0
+1,1,1,1,1,1,0,1,1,1,27,f,white-european,1,1,netherlands,9.0,self,1
+1,0,1,1,0,0,0,0,0,0,34,f,white-european,0,0,united kingdom,3.0,self,0
+1,1,0,1,0,0,0,0,0,1,31,m,white-european,0,0,australia,4.0,self,0
+1,0,0,0,0,0,0,1,0,1,47,m,?,0,0,jordan,3.0,?,0
+1,0,0,1,0,0,0,1,0,0,47,m,?,0,0,jordan,3.0,?,0
+1,1,1,1,1,1,1,1,1,1,44,m,white-european,0,1,united kingdom,10.0,self,1
+1,0,0,0,1,0,1,1,0,0,25,f,white-european,0,0,united states,4.0,self,0
+1,0,0,0,1,0,1,1,0,0,25,f,white-european,0,0,united states,4.0,self,0
+1,1,0,0,1,1,1,1,1,1,20,m,white-european,0,0,united kingdom,8.0,self,1
+1,1,1,1,1,0,1,1,1,1,43,m,white-european,1,0,new zealand,9.0,self,1
+1,1,1,1,1,0,0,1,1,1,36,f,white-european,0,1,united kingdom,8.0,self,1
+1,1,0,0,0,0,0,1,0,0,30,f,asian,0,1,united states,3.0,self,0
+0,0,1,1,0,0,0,0,0,0,44,m,black,0,0,united kingdom,2.0,self,0
+1,1,0,0,1,0,0,0,0,1,40,f,black,0,0,united kingdom,4.0,parent,0
+1,1,0,0,1,1,0,1,1,0,40,f,black,1,0,united kingdom,6.0,relative,0
+1,1,0,1,1,1,0,1,1,0,40,f,black,1,1,united kingdom,7.0,relative,1
+1,1,1,1,1,0,0,1,0,1,30,m,others,0,0,united states,7.0,self,1
+1,0,1,1,0,0,1,0,0,1,47,f,white-european,0,0,united kingdom,5.0,self,0
+1,1,1,1,1,1,1,1,1,1,21,m,black,0,0,brazil,10.0,self,1
+1,1,1,1,1,1,0,1,1,1,21,m,black,0,0,brazil,9.0,self,1
+1,0,1,1,1,1,1,1,1,1,31,f,?,0,0,new zealand,9.0,?,1
+1,1,1,0,0,0,0,0,0,0,21,f,asian,0,0,new zealand,3.0,self,0
+0,1,1,1,0,0,0,1,1,0,29,f,asian,0,0,united states,5.0,self,0
+0,1,1,1,1,0,1,0,1,0,22,m,middle eastern ,0,0,afghanistan,6.0,self,0
+1,1,1,1,1,1,1,1,1,1,51,m,white-european,1,0,united kingdom,10.0,self,1
+1,0,0,0,0,0,0,0,0,0,23,m,?,0,0,russia,1.0,?,0
+1,0,0,0,1,0,0,0,1,1,30,m,asian,0,0,india,4.0,self,0
+1,1,0,0,0,0,0,1,0,0,22,m,others,0,0,india,3.0,self,0
+1,1,0,0,0,0,0,1,0,1,22,m,asian,0,0,new zealand,4.0,self,0
+1,0,0,0,1,0,1,1,0,1,24,m,asian,0,0,india,5.0,self,0
+1,0,0,0,0,0,0,1,0,1,26,f,south asian,0,0,india,3.0,self,0
+1,0,1,1,0,0,0,1,1,1,33,f,asian,0,0,india,6.0,parent,0
+1,0,0,0,0,0,0,1,1,0,23,m,asian,0,0,india,3.0,self,0
+1,0,1,0,0,0,0,1,0,0,42,f,asian,0,0,india,3.0,self,0
+1,0,1,0,0,0,0,0,0,0,26,f,asian,0,0,india,2.0,self,0
+1,0,0,0,0,0,0,1,0,0,29,f,asian,0,0,new zealand,2.0,self,0
+1,0,0,0,0,0,1,0,0,1,35,f,asian,0,0,india,3.0,self,0
+1,0,0,0,1,1,0,1,0,0,25,f,south asian,0,0,india,4.0,self,0
+1,0,0,0,0,0,1,1,0,0,25,m,asian,0,0,sri lanka,3.0,self,0
+0,0,0,0,0,0,0,1,0,0,28,f,asian,1,0,india,1.0,self,0
+1,0,0,0,0,0,0,0,0,0,33,m,white-european,0,0,germany,1.0,self,0
+1,0,0,1,0,0,1,1,0,0,25,m,asian,0,0,india,4.0,self,0
+0,0,1,0,1,1,0,1,0,1,25,m,asian,0,0,india,5.0,self,0
+1,0,0,0,1,0,1,1,0,0,24,m,asian,0,0,india,4.0,self,0
+1,1,1,1,0,0,0,0,0,1,27,f,south asian,0,0,india,5.0,self,0
+1,0,0,0,0,0,0,0,0,0,22,m,south asian,0,0,india,1.0,self,0
+1,1,0,1,0,0,0,1,0,1,21,f,south asian,0,0,india,5.0,self,0
+1,0,1,1,0,1,0,1,0,1,27,f,south asian,0,0,india,6.0,self,0
+1,0,0,0,1,0,1,0,0,0,23,m,south asian,0,0,india,3.0,self,0
+0,0,0,1,1,0,0,1,0,1,22,m,asian,0,0,india,4.0,self,0
+0,1,0,0,0,0,0,0,0,1,23,f,south asian,0,0,india,2.0,self,0
+1,0,0,1,0,0,0,1,0,1,30,m,asian,0,0,india,4.0,self,0
+0,1,0,0,1,0,1,1,0,0,33,m,asian,0,0,india,4.0,self,0
+1,0,1,1,1,0,1,1,1,0,24,f,south asian,0,0,india,7.0,self,1
+1,0,0,0,1,0,1,1,0,0,22,f,asian,0,0,new zealand,4.0,self,0
+1,0,0,1,1,0,1,1,1,1,22,m,asian,0,0,new zealand,7.0,self,1
+1,0,0,0,0,0,0,1,0,1,29,f,south asian,0,0,india,3.0,self,0
+1,0,1,0,1,0,1,1,0,1,22,f,asian,0,0,india,6.0,self,0
+1,0,1,0,0,0,0,1,0,0,21,m,asian,1,0,india,3.0,self,0
+1,0,0,0,0,0,1,1,0,0,23,m,asian,0,0,india,3.0,self,0
+1,0,0,0,1,0,1,1,0,1,23,f,others,0,0,india,5.0,self,0
+1,0,0,0,1,0,1,1,1,1,23,f,asian,0,0,india,6.0,self,0
+1,1,0,1,1,0,1,1,0,0,32,m,asian,0,0,sri lanka,6.0,self,0
+0,0,0,0,0,0,1,0,0,1,27,m,asian,0,0,sri lanka,2.0,self,0
+0,0,1,0,0,0,0,1,0,0,28,f,asian,0,0,india,2.0,parent,0
+1,1,0,0,1,0,0,1,1,1,25,f,middle eastern ,0,0,india,6.0,self,0
+1,0,1,0,1,0,1,1,1,1,22,m,black,0,0,nepal,7.0,self,1
+0,1,1,0,0,0,1,0,0,1,36,m,white-european,0,0,united kingdom,4.0,self,0
+0,0,0,0,0,0,0,0,0,0,27,f,?,0,0,russia,0.0,?,0
+1,1,1,1,1,1,1,1,1,1,21,f,white-european,0,0,germany,10.0,self,1
+1,1,0,1,1,0,0,1,0,0,18,m,black,0,0,united states,5.0,self,0
+1,0,0,0,1,1,1,1,1,1,49,m,black,0,0,mexico,7.0,parent,1
+1,1,1,0,0,0,0,1,0,0,18,m,asian,0,0,indonesia,4.0,self,0
+1,0,1,1,1,0,1,1,1,0,29,m,latino,0,0,united states,7.0,self,1
+0,0,0,0,1,0,0,1,0,0,31,f,?,0,0,new zealand,2.0,?,0
+1,0,0,0,0,0,0,0,0,0,37,f,middle eastern ,0,0,new zealand,1.0,parent,0
+1,0,1,1,1,0,0,1,0,1,17,m,middle eastern ,1,0,new zealand,6.0,parent,0
+1,0,1,1,0,0,1,1,1,1,17,m,?,0,1,new zealand,7.0,?,1
+1,1,1,1,0,0,0,0,0,0,38,f,middle eastern ,0,0,jordan,4.0,self,0
+1,0,1,0,0,1,0,1,0,1,18,m,white-european,1,0,angola,5.0,parent,0
+1,0,1,1,1,0,0,0,0,0,31,f,middle eastern ,0,0,united arab emirates,4.0,self,0
+0,1,1,1,0,0,0,0,0,0,33,m,middle eastern ,1,0,united arab emirates,3.0,self,0
+1,1,0,0,0,0,0,0,0,0,32,f,middle eastern ,1,0,jordan,2.0,self,0
+1,0,0,0,0,0,1,0,0,1,30,m,?,1,0,jordan,3.0,?,0
+0,0,0,0,0,0,0,0,0,1,33,f,?,0,0,united states,1.0,?,0
+1,1,1,1,1,1,1,1,1,1,30,f,white-european,0,1,canada,10.0,self,1
+1,1,1,1,1,0,1,1,1,1,30,m,asian,0,0,united states,9.0,self,1
+1,0,0,1,1,0,1,0,0,1,38,f,white-european,0,1,united kingdom,5.0,self,0
+1,0,0,0,1,0,1,0,1,1,22,m,asian,0,0,india,5.0,self,0
+1,1,0,0,1,0,1,0,1,0,36,m,others,0,0,united states,5.0,self,0
+0,0,1,1,0,0,1,0,0,0,43,m,?,0,0,azerbaijan,3.0,?,0
+1,1,1,1,1,1,0,0,1,1,44,m,?,0,0,pakistan,8.0,?,1
+1,1,1,0,1,1,0,1,1,1,20,f,white-european,0,0,france,8.0,self,1
+1,1,1,1,1,1,0,1,1,1,40,f,others,1,1,australia,9.0,self,1
+1,0,0,1,1,1,0,0,1,0,25,m,white-european,0,0,italy,5.0,self,0
+1,0,0,0,0,0,1,1,0,1,28,m,white-european,0,0,australia,4.0,self,0
+0,0,0,0,0,0,1,1,0,1,17,m,white-european,0,0,canada,3.0,self,0
+1,1,1,1,1,1,1,0,1,1,34,m,white-european,0,0,united states,9.0,self,1
+0,0,0,0,0,0,0,1,0,0,56,m,?,0,0,iraq,1.0,?,0
+0,0,1,0,0,0,1,1,0,0,50,f,middle eastern ,0,0,new zealand,3.0,parent,0
+1,0,0,0,0,0,1,1,0,1,38,m,white-european,0,0,united states,4.0,self,0
+1,1,1,1,1,1,1,1,1,1,47,m,white-european,0,0,united states,10.0,self,1
+1,1,1,1,1,0,1,1,1,1,30,m,others,0,0,united states,9.0,self,1
+1,1,1,1,1,0,0,1,0,1,21,m,hispanic,0,0,united states,7.0,self,1
+1,1,1,1,1,0,1,1,0,1,21,m,white-european,0,0,ireland,8.0,self,1
+1,1,1,0,1,0,1,1,1,1,31,m,latino,0,0,mexico,8.0,self,1
+1,1,0,0,1,1,0,1,0,1,27,f,white-european,1,0,czech republic,6.0,self,0
+1,1,1,1,0,0,0,0,1,0,24,f,white-european,1,0,united states,5.0,self,0
+1,1,0,0,0,0,1,0,0,1,35,m,white-european,1,0,united kingdom,4.0,parent,0
+1,0,0,0,0,0,1,0,0,1,18,m,black,0,0,ethiopia,3.0,health care professional,0
+1,1,1,1,1,0,0,1,1,1,43,f,black,0,0,united states,8.0,self,1
+1,1,1,1,1,1,1,1,1,1,44,m,white-european,0,1,afghanistan,10.0,self,1
+1,1,1,1,1,1,1,1,1,1,40,m,white-european,1,1,united kingdom,10.0,parent,1
+1,1,0,1,1,1,1,1,1,1,49,f,hispanic,0,0,united states,9.0,self,1
+1,1,0,0,0,0,0,1,0,0,24,m,hispanic,0,0,united states,3.0,self,0
+1,1,0,0,0,0,0,1,1,0,30,f,white-european,1,1,united states,4.0,self,0
+1,0,1,0,0,0,0,1,0,1,53,m,hispanic,0,0,united states,4.0,relative,0
+1,0,1,1,1,0,0,1,1,1,38,m,white-european,0,1,belgium,7.0,self,1
+1,0,0,0,1,0,1,1,0,1,28,m,white-european,0,0,united states,5.0,self,0
+1,1,1,0,1,1,1,1,1,1,28,m,white-european,0,0,united states,9.0,self,1
+1,0,1,1,1,1,1,0,1,1,26,m,black,0,0,canada,8.0,self,1
+1,0,0,0,1,1,1,1,1,1,39,f,white-european,0,0,canada,7.0,self,1
+0,0,0,0,1,0,0,0,0,0,31,f,asian,1,0,india,1.0,self,0
+1,0,0,1,0,0,1,1,0,0,24,m,black,0,0,united states,4.0,self,0
+1,1,1,0,1,1,1,1,0,1,28,m,white-european,0,0,united states,8.0,self,1
+1,0,0,1,0,0,0,1,0,1,31,f,white-european,0,0,united kingdom,4.0,self,0
+1,1,1,1,1,0,0,1,0,1,27,m,white-european,1,0,united states,7.0,self,1
+1,0,1,1,0,0,1,1,0,0,28,m,latino,0,0,brazil,5.0,parent,0
+1,1,1,1,1,1,0,1,1,1,31,m,turkish,0,1,australia,9.0,self,1
+1,1,1,1,1,0,0,0,0,1,46,f,asian,0,0,philippines,6.0,self,0
+1,1,1,1,1,1,1,1,1,1,27,f,pasifika,0,0,australia,10.0,self,1
+0,1,0,1,1,0,1,1,1,1,25,f,white-european,0,0,russia,7.0,self,1
+1,0,0,0,0,0,0,1,0,1,34,m,hispanic,0,0,mexico,3.0,parent,0
+1,0,1,1,1,0,1,1,0,1,24,f,?,0,0,russia,7.0,?,1
+1,0,0,1,1,0,1,0,1,1,35,m,south asian,0,0,pakistan,6.0,self,0
+1,0,1,1,1,0,1,1,1,1,26,f,white-european,0,0,cyprus,8.0,self,1

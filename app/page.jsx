@@ -1,42 +1,20 @@
-"use client";
+import Link from 'next/link'
 
-import React, { useEffect, useState } from 'react';
+const Home = () => (
+  <section className='w-full flex-center flex-col'>
+    <h1 className='head_text text-center'>
+      Autinosis.
+      <br className='max-md:hidden' />
+      <span className='inline-block orange_gradient text-center'> AI-powered screening</span>
+    </h1>
+    <p className='desc text-center'>
+      Revolutionizing autism screening for all age groups. 
+    </p>
 
-function Page() {
+    <Link href='/test' className="ui_btn">
+      Find the best options for you or your child.
+    </Link>
+  </section>
+);
 
-  const [numbers, setNumbers] = useState([])
-  const [gotData, setGotData] = useState(false)
-
-  console.log(numbers)
-
-  const fetchNumber = async () => {
-    const response = await fetch('/api/numbers')
-    console.log('hey there!')
-    const data = await response.json()
-    setGotData(true)
-    setNumbers(data)
-  }
-
-  return (
-    <div>
-      <button onClick={fetchNumber}>Load number</button>
-      {
-        gotData ? (
-          numbers.map(number => {
-            console.log('I`ve got the data!')
-            return (
-              <div key={number}>
-              Number: {number}<br/>
-            </div>
-            )
-          }
-          )
-        ) : (
-          <p>Loading...</p>
-        )
-      }
-    </div>
-  );
-}
-
-export default Page;
+export default Home;
