@@ -15,7 +15,7 @@ const NavBar = () => {
         <Link href='/' className='flex gap-2 flex-center'>
         <Image
           src='/assets/images/logo.svg'
-          alt='logo'
+          alt='logo da Autinosis'
           width={30}
           height={30}
           className='object-contain'
