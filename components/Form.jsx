@@ -25,34 +25,12 @@ const Form = () => {
         Age: 0,
     });
 
-    function processesResponses(question, value) {
-        if (question === 'age') {
-            return value
-        }
-
-        if (['A1', 'A2', 'A3', 'A4', 'A10', 'jundice'].includes(question)) {
-            if ([1,2].includes(value)) {
-                return 1
-            } else {
-                return 0
-            }
-        } else {
-            if ([1,2].includes(value)) {
-                return 0
-            } else {
-                return 1
-            }
-        }
-    }
-
     const [resposta, setResposta] = useState(null);
-
-
 
     const handleInputChange = (name, value) => {
         setFormData(prevState => ({
             ...prevState,
-            [name]: processesResponses(name, value),
+            [name]: value,
         }));
     };
 
@@ -76,11 +54,25 @@ const Form = () => {
     };
 
     return (
-        <section>
-        <section>
-        <h1 className='head_text orange_gradient'>Adult Form</h1>
-        { resposta ? (
-            <p>{resposta}</p>
+        <section className=''>
+        <h1 className='head_text orange_gradient'>Teste para adultos.</h1>
+        { resposta || resposta == 0 ? (
+            <div>
+            {
+                resposta < 10 ? (
+                    <div>
+                        <h2 className='desc'>O seu resultado foi:</h2>
+                        <p className='sub_head'>Muito improvavél que você possua o TEA.</p>
+                        <p className='desc'>Aviso ético: Esta ferramenta é apenas experimental e está sob desenvolvimento. 
+                            Sempre consulte um profissional de 
+                        </p>
+                    </div>
+                ) : (
+                    <div></div>
+
+                )
+            }
+            </div>
         ) : (
         <form className='flex-col gap-4' onSubmit={handleSubmit}>
         <div className='my-10 flex-col'>
@@ -216,8 +208,6 @@ const Form = () => {
 
         <br></br>
         <br></br>
-    </section>
-
     </section>
     )
 }

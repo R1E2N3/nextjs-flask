@@ -7,9 +7,21 @@ import pandas as pd
 # Initialize Flask app
 app = Flask(__name__)
 
-@app.route('/api/',  methods=['GET'])
-def home():
-    return "<p>Hey there!</p>"
+def processesData(question, value):
+    if question in ['A1', 'A2', 'A3', 'A4', 'A10']:
+        if value in [1,2]:
+            return 1
+        else:
+            return 0
+
+    elif question in ['A5', 'A6', 'A7', 'A8', 'A9']:
+        if value in [1,2]:
+            return 0
+        else:
+            return 1
+
+
+    return value
 
 # Define the route for model prediction
 @app.route('/api/adolescent/predict', methods=['POST'])
@@ -27,6 +39,10 @@ def predictAdolescent():
 
         # Ensure the JSON data contains the expected keys
         if all(key in data for key in ['Age', 'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'Ethnicity', 'Gender', 'Relation', 'jundice']):
+
+            for key in data:
+                data[key] = processesData(key, data[key])
+
             # Perform prediction with the loaded model
             # Assuming the model expects data in the form of a list of dictionaries
             prediction_data = pd.DataFrame([data], index=[0])  # Specify the index explicitly
@@ -36,9 +52,7 @@ def predictAdolescent():
             # Convert prediction values to strings with 3 decimal digits of precision
 
             # Construct the response with the prediction
-            response = {'prediction': prediction }
-            print(prediction)
-            return str(prediction)
+            return str(pred)
         else:
             # If the JSON data does not contain the expected keys, return an error message
             error_message = {'error': 'Invalid request format. Please provide all required fields.'}
