@@ -64,7 +64,7 @@ const Form = () => {
                         <h2 className='desc'>O seu resultado foi:</h2>
                         <p className='sub_head'>Muito improvavél que você possua o TEA.</p>
                         <p className='desc'>Aviso ético: Esta ferramenta é apenas experimental e está sob desenvolvimento. 
-                            Sempre consulte um profissional de 
+                            Sempre consulte um profissional de saúde para tomar decisões importantes. 
                         </p>
                     </div>
                 ) : (
@@ -86,7 +86,7 @@ const Form = () => {
                 />
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Do you have difficulty understanding people's intentions?</p>
+                <p className='desc'>Costuma notar pequenos sons quando outros não percebem?</p>
                 <select className='select_form' value={formData.A1} onChange={(e) => handleInputChange('A1', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -96,7 +96,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Do you find it easy to figure out what someone is thinking or feeling just by looking at their face?</p>
+                <p className='desc'>Normalmente concentra-se mais no todo, em vez de pequenos detalhes?</p>
                 <select className='select_form' value={formData.A2} onChange={(e) => handleInputChange('A2', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -106,7 +106,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Do you enjoy collecting information about categories of things? (e.g., types of cars, birds, trains, plants, etc.)</p>
+                <p className='desc'>Acha fácil fazer mais de uma coisa de uma só vez?</p>
                 <select className='select_form' value={formData.A3} onChange={(e) => handleInputChange('A3', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -116,7 +116,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>When reading a story, do you find it difficult to figure out the intentions of the characters?</p>
+                <p className='desc'>Em caso de interrupção, consegue voltar ao que estava fazendo com facilidade?</p>
                 <select className='select_form' value={formData.A4} onChange={(e) => handleInputChange('A4', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -126,7 +126,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Can you tell if someone who is listening to you is getting bored?</p>
+                <p className='desc'>Acha facil 'ler nas entrelinhas' quando alguém está falando contigo?</p>
                 <select className='select_form' value={formData.A5} onChange={(e) => handleInputChange('A5', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -136,7 +136,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Do you find it easy to "read between the lines" when someone is talking to you?</p>
+                <p className='desc'>Sabe dizer se alguém que está te ouvindo está ficando entediado?</p>
                 <select className='select_form' value={formData.A6} onChange={(e) => handleInputChange('A6', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -146,7 +146,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Are you able to easily return to what you were doing after an interruption?</p>
+                <p className='desc'>Quando está lendo uma história, acha difícil descobrir as intenções dos personagens?</p>
                 <select className='select_form' value={formData.A7} onChange={(e) => handleInputChange('A7', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -156,7 +156,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Do you find it easy to do more than one thing at once?</p>
+                <p className='desc'>Gosta de coletar informações sobre categorias das coisas? (ex: tipos de carro, pássaro, trem, planta etc.)</p>
                 <select className='select_form' value={formData.A8} onChange={(e) => handleInputChange('A8', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -166,7 +166,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Do you typically focus more on the big picture rather than small details?</p>
+                <p className='desc'> Acha fácil descobrir o que alguém está pensando ou sentindo apenas olhando no rosto da pessoa?</p>
                 <select className='select_form' value={formData.A9} onChange={(e) => handleInputChange('A9', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
@@ -176,7 +176,7 @@ const Form = () => {
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Do you often notice small sounds when others do not?</p>
+                <p className='desc'>Tem dificuldade em compreender as intenções das pessoas?</p>
                 <select className='select_form' value={formData.A10} onChange={(e) => handleInputChange('A10', e.target.value)}>
                     <option value="">Select an option</option>
                     <option value={1}>Strongly agree</option>
