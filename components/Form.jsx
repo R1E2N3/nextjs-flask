@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
+const axios = require('axios')
 
 const Form = () => {
 
@@ -37,6 +38,7 @@ const Form = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(JSON.stringify(formData))
+
         try {
             const response = await fetch('/api/adolescent/predict', {
                 method: 'POST',
