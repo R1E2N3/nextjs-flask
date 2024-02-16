@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import React, { useState } from 'react';
 
@@ -62,7 +62,7 @@ const Form = () => {
                 resposta < 10 ? (
                     <div>
                         <h2 className='desc'>O seu resultado foi:</h2>
-                        <p className='sub_head'>Muito improvavél que você possua o TEA.</p>
+                        <p className='sub_head'>Muito improvável que você possua o TEA.</p>
                         <p className='desc'>Aviso ético: Esta ferramenta é apenas experimental e está sob desenvolvimento. 
                             Sempre consulte um profissional de saúde para tomar decisões importantes. 
                         </p>
@@ -76,7 +76,7 @@ const Form = () => {
         ) : (
         <form className='flex-col gap-4' onSubmit={handleSubmit}>
         <div className='my-10 flex-col'>
-                <p className=''>What's your age?</p>
+                <p className=''>Qual a sua idade?</p>
                 <input 
                     className='number_input'
                     type="number" 
@@ -88,113 +88,113 @@ const Form = () => {
             <div className='my-10 flex-col'>
                 <p className='desc'>Costuma notar pequenos sons quando outros não percebem?</p>
                 <select className='select_form' value={formData.A1} onChange={(e) => handleInputChange('A1', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
                 <p className='desc'>Normalmente concentra-se mais no todo, em vez de pequenos detalhes?</p>
                 <select className='select_form' value={formData.A2} onChange={(e) => handleInputChange('A2', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
                 <p className='desc'>Acha fácil fazer mais de uma coisa de uma só vez?</p>
                 <select className='select_form' value={formData.A3} onChange={(e) => handleInputChange('A3', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
                 <p className='desc'>Em caso de interrupção, consegue voltar ao que estava fazendo com facilidade?</p>
                 <select className='select_form' value={formData.A4} onChange={(e) => handleInputChange('A4', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Acha facil 'ler nas entrelinhas' quando alguém está falando contigo?</p>
+                <p className='desc'>Acha fácil 'ler nas entrelinhas' quando alguém está falando contigo?</p>
                 <select className='select_form' value={formData.A5} onChange={(e) => handleInputChange('A5', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
                 <p className='desc'>Sabe dizer se alguém que está te ouvindo está ficando entediado?</p>
                 <select className='select_form' value={formData.A6} onChange={(e) => handleInputChange('A6', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
                 <p className='desc'>Quando está lendo uma história, acha difícil descobrir as intenções dos personagens?</p>
                 <select className='select_form' value={formData.A7} onChange={(e) => handleInputChange('A7', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
                 <p className='desc'>Gosta de coletar informações sobre categorias das coisas? (ex: tipos de carro, pássaro, trem, planta etc.)</p>
                 <select className='select_form' value={formData.A8} onChange={(e) => handleInputChange('A8', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
                 <p className='desc'> Acha fácil descobrir o que alguém está pensando ou sentindo apenas olhando no rosto da pessoa?</p>
                 <select className='select_form' value={formData.A9} onChange={(e) => handleInputChange('A9', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
                 <p className='desc'>Tem dificuldade em compreender as intenções das pessoas?</p>
                 <select className='select_form' value={formData.A10} onChange={(e) => handleInputChange('A10', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Strongly agree</option>
-                    <option value={2}>Agree</option>
-                    <option value={3}>Disagree</option>
-                    <option value={4}>Strongly disagree</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Concordo totalmente</option>
+                    <option value={2}>Concordo</option>
+                    <option value={3}>Discordo</option>
+                    <option value={4}>Discordo totalmente</option>
                 </select>
             </div>
             <div className='my-10 flex-col'>
-                <p className='desc'>Do you have jaundice?</p>
+                <p className='desc'>Você tem icterícia?</p>
                 <select className='select_form' value={formData.jundice} onChange={(e) => handleInputChange('jundice', e.target.value)}>
-                    <option value="">Select an option</option>
-                    <option value={1}>Yes</option>
-                    <option value={0}>No</option>
+                    <option value="">Selecione uma opção</option>
+                    <option value={1}>Sim</option>
+                    <option value={0}>Não</option>
                 </select>
             </div>
             {/* Submit Button */}
-            <button className='ui_btn' type="submit">Submit</button>
+            <button className='ui_btn' type="submit">Enviar</button>
         </form>
         )}
 
