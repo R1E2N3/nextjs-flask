@@ -1,10 +1,9 @@
-"use client"
+"use client";
 
 import React, { useState } from 'react';
-const axios = require('axios')
+import axios from 'axios';
 
-const Form = () => {
-
+const FormA = () => {
     const [formData, setFormData] = useState({
         Ethnicity: "",
         jundice: "",
@@ -37,18 +36,20 @@ const Form = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(JSON.stringify(formData))
+        console.log(JSON.stringify(formData));
 
         try {
-            const response = await fetch('/api/adolescent/predict', {
-                method: 'POST',
+            const response = await axios.post('/api/adult/predict', formData, {
                 headers: {
                     'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({...formData})
-            }).then(response => response.json()).then(data => setResposta(data));
-
-            console.log('Predictions:', resposta);
+                }
+            });
+            setResposta(response.data['prediction']);
+            console.log(response.data);
+            console.log(response.data['prediction'])
+            console.log(resposta)
+            console.log('Response:', response)
+            console.log('heyyyyyy:', response.data);
             // Handle predictions as needed
         } catch (error) {
             console.error('Error making prediction:', error);
@@ -57,26 +58,14 @@ const Form = () => {
 
     return (
         <section className=''>
-        <h1 className='head_text orange_gradient'>Teste para adultos.</h1>
-        { resposta || resposta == 0 ? (
-            <div>
-            {
-                resposta < 10 ? (
-                    <div>
-                        <h2 className='desc'>O seu resultado foi:</h2>
-                        <p className='sub_head'>Muito improvável que você possua o TEA.</p>
-                        <p className='desc'>Aviso ético: Esta ferramenta é apenas experimental e está sob desenvolvimento. 
-                            Sempre consulte um profissional de saúde para tomar decisões importantes. 
-                        </p>
-                    </div>
-                ) : (
-                    <div></div>
-
-                )
-            }
-            </div>
-        ) : (
-        <form className='flex-col gap-4' onSubmit={handleSubmit}>
+            <h1 className='head_text orange_gradient'>Teste para adultos.</h1>
+            { resposta || resposta === 0 ? (
+                <div className='my-6'>
+                    <p className='desc'>O seu resultado foi:</p>
+                    <p className='head_text'>{Math.trunc(resposta*100)}%</p>
+                </div>
+            ) : (
+<form className='flex-col gap-4' onSubmit={handleSubmit}>
         <div className='my-10 flex-col'>
                 <p className=''>Qual a sua idade?</p>
                 <input 
@@ -198,20 +187,11 @@ const Form = () => {
             {/* Submit Button */}
             <button className='ui_btn' type="submit">Enviar</button>
         </form>
-        )}
-
-        {
-            <div>
-                {Object.keys(formData).forEach(function(key, index) {
-                    <p>{formData.key}</p>
-                })}
-            </div>
-        }
-
-        <br></br>
-        <br></br>
-    </section>
-    )
+            )}
+            <br />
+            <br />
+        </section>
+    );
 }
 
-export default Form;
+export default FormA;
