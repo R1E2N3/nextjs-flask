@@ -44,7 +44,7 @@ const FormA = () => {
                     'Content-Type': 'application/json'
                 }
             });
-            setResposta(response.data);
+            setResposta(response.data['prediction']);
             console.log(response.data);
             console.log(response.data['prediction'])
             console.log(resposta)
@@ -62,7 +62,7 @@ const FormA = () => {
             { resposta !== null ? (
                 <div className='my-6'>
                     <p className='desc'>O seu resultado foi:</p>
-                    <p className='head_text'>{Math.trunc(resposta)}%</p>
+                    <p className='head_text'>{Math.trunc(resposta*100)}%</p>
                 </div>
             ) : (
 <form className='flex-col gap-4' onSubmit={handleSubmit}>
