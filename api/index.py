@@ -59,6 +59,7 @@ def predictAdolescent():
 
 @app.route('/api/adult/predict', methods=['POST'])
 def predictAdult():
+    print('heyyyy, I ran')
     # Load the model
     this_dir = os.path.dirname(__file__)
     joblib_path = os.path.join(this_dir, 'adult.joblib')
