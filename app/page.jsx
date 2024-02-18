@@ -14,6 +14,8 @@ const Home = () => (
     <Link href='/test' className="ui_btn">
       Find the best options for you or your child.
     </Link>
+
+    <Link href='/testing' className='ui_btn block'>Click me</Link>
   </section>
 );
 
