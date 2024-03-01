@@ -67,7 +67,7 @@ const FormTesting = () => {
             { resposta !== null ? (
                 <div className='my-6'>
                     <p className='desc'>O seu resultado foi:</p>
-                    <p className='head_text'>{resposta}%</p>
+                    {/* <p className='head_text'>{resposta}%</p> */}
                 </div>
             ) : (
 <form className='flex-col gap-4' onSubmit={handleSubmit}>
