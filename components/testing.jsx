@@ -38,8 +38,8 @@ const FormTesting = () => {
         console.log(JSON.stringify(formData));
     
         try {
-            const response = await fetch('/api/adult/predict', {
-                method: 'POST',
+            const response = await fetch('https://python-api-autinosis.onrender.com/predict_adult', {
+                method: 'GET',
                 headers: {
                     'Content-Type': 'application/json'
                 },
