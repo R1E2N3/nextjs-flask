@@ -39,7 +39,7 @@ const FormTesting = () => {
     
         try {
             const response = await fetch('https://python-api-autinosis.onrender.com/predict_adult', {
-                method: 'GET',
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
