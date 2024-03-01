@@ -51,7 +51,7 @@ const FormTesting = () => {
             }
     
             const responseData = await response.json();
-            setResposta(responseData);
+            setResposta(responseData.prediction);
             console.log('Response:', responseData);
             console.log('heyyyyyy:', responseData.prediction);
             // Handle predictions as needed
@@ -67,7 +67,7 @@ const FormTesting = () => {
             { resposta !== null ? (
                 <div className='my-6'>
                     <p className='desc'>O seu resultado foi:</p>
-                    <p className='head_text'>{resposta}%</p>
+                    <p className='head_text'>{resposta["Response"]}%</p>
                 </div>
             ) : (
 <form className='flex-col gap-4' onSubmit={handleSubmit}>
