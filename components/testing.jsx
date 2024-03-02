@@ -51,9 +51,9 @@ const FormTesting = () => {
             }
     
             const responseData = await response.json();
-            setResposta(responseData);
+            setResposta(responseData['Result']);
             console.log('Response:', responseData);
-            console.log('This was the Response:', resposta['Result'])
+            console.log('This was the Response:', responseData['Result'])
             console.log('heyyyyyy:', responseData.prediction);
             // Handle predictions as needed
         } catch (error) {
