@@ -1,9 +1,8 @@
 "use client";
 
 import React, { useState } from 'react';
-import axios from 'axios';
 
-const FormA = () => {
+const FormTesting = () => {
     const [formData, setFormData] = useState({
         Ethnicity: "",
         jundice: "",
@@ -37,24 +36,31 @@ const FormA = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(JSON.stringify(formData));
-
+    
         try {
-            const response = await axios.post('/api/adult/predict', formData, {
+            const response = await fetch('https://python-api-autinosis.onrender.com/predict_adult', {
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
-                }
+                },
+                body: JSON.stringify(formData)
             });
-            setResposta(response.data['prediction']);
-            console.log(response.data);
-            console.log(response.data['prediction'])
-            console.log(resposta)
-            console.log('Response:', response)
-            console.log('heyyyyyy:', response.data);
+    
+            if (!response.ok) {
+                throw new Error('Failed to fetch');
+            }
+    
+            const responseData = await response.json();
+            setResposta(responseData['Result']);
+            console.log('Response:', responseData);
+            console.log('This was the Response:', responseData['Result'])
+            console.log('heyyyyyy:', responseData.prediction);
             // Handle predictions as needed
         } catch (error) {
             console.error('Error making prediction:', error);
         }
     };
+    
 
     return (
         <section className=''>
@@ -62,7 +68,7 @@ const FormA = () => {
             { resposta !== null ? (
                 <div className='my-6'>
                     <p className='desc'>O seu resultado foi:</p>
-                    <p className='head_text'>{Math.trunc(resposta*100)}%</p>
+                    <p className='head_text'>{resposta}%</p>
                 </div>
             ) : (
 <form className='flex-col gap-4' onSubmit={handleSubmit}>
@@ -194,4 +200,4 @@ const FormA = () => {
     );
 }
 
-export default FormA;
+export default FormTesting;

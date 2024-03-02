@@ -39,7 +39,7 @@ const FormAdolescent = () => {
         console.log(JSON.stringify(formData));
 
         try {
-            const response = await axios.post('/api/adolescent/predict', formData, {
+            const response = await axios.post('https://python-api-autinosis.onrender.com/predict_adolescent', formData, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
