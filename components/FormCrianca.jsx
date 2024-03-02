@@ -33,16 +33,25 @@ const FormCrianca = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(JSON.stringify(formData));
-
+    
         try {
-            const response = await axios.post('/api/child/predict', formData, {
+            const response = await fetch('https://python-api-autinosis.onrender.com/predict_child', {
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
-                }
+                },
+                body: JSON.stringify(formData)
             });
-            setResposta(response.data);
-            console.log('Response:', response)
-            console.log('heyyyyyy:', response.data);
+    
+            if (!response.ok) {
+                throw new Error('Failed to fetch');
+            }
+    
+            const responseData = await response.json();
+            setResposta(responseData['Result']);
+            console.log('Response:', responseData);
+            console.log('This was the Response:', responseData['Result'])
+            console.log('heyyyyyy:', responseData.prediction);
             // Handle predictions as needed
         } catch (error) {
             console.error('Error making prediction:', error);
