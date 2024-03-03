@@ -194,7 +194,7 @@ const FormAdolescent = () => {
             {
                 processando === true ? (
                     <div>
-                        <p>Processando...</p>
+                        <p className='head_text'>Processando...</p>
                     </div>
                  ) : (
                     <div className='hidden'></div>
