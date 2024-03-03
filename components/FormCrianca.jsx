@@ -201,7 +201,7 @@ const FormCrianca = () => {
             <br />
             <br />
             {
-                processando ? (
+                processando && !resposta ? (
                     <div>
                         <p className='head_text'>Processando...</p>
                     </div>
