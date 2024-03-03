@@ -38,6 +38,7 @@ const FormAdolescent = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(JSON.stringify(formData));
+        setProcessando(true)
     
         try {
             const response = await fetch('https://python-api-autinosis.onrender.com/predict_adolescent', {
