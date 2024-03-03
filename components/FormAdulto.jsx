@@ -191,11 +191,7 @@ const FormTesting = () => {
             </div>
             {/* Submit Button */}
             <button className='ui_btn' type="submit">Enviar</button>
-
-        </form>
-        
-            )}
-                        {
+            {
                 processando && !resposta ? (
                     <div>
                         <p className='text-xl font-semibold'>Processando...</p>
@@ -204,6 +200,9 @@ const FormTesting = () => {
                     <div className='hidden'></div>
                 )
             }
+        </form>
+        
+            )}
             <br />
             <br />
         </section>
