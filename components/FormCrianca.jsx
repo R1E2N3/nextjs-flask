@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const FormCrianca = () => {
+    const [proceessando, setProcessando] = useState(false)
     const [formData, setFormData] = useState({
         Ethnicity: "",
         Jaundice: 1,
@@ -33,6 +34,7 @@ const FormCrianca = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(JSON.stringify(formData));
+        setProcessando(true)
     
         try {
             const response = await fetch('https://python-api-autinosis.onrender.com/predict_child', {
@@ -198,6 +200,15 @@ const FormCrianca = () => {
             )}
             <br />
             <br />
+            {
+                processando ? (
+                    <div>
+                        <p className='head_text'>Processando...</p>
+                    </div>
+                ) : (
+                    <div className='hidden'></div>
+                )
+            }
         </section>
     );
 }
