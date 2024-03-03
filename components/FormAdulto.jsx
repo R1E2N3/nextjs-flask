@@ -64,7 +64,7 @@ const FormTesting = () => {
     return (
         <section className=''>
             <h1 className='head_text orange_gradient'>Teste para adultos.</h1>
-            { resposta !== null ? (
+            { resposta || resposta === 0 ? (
                 <div className='my-6'>
                     <p className='desc'>O seu resultado foi:</p>
                     <p className='head_text'>{resposta}%</p>
