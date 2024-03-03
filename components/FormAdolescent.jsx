@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const FormAdolescent = () => {
+    const [processando, setProcessando] = useState(false)
     const [formData, setFormData] = useState({
         Ethnicity: "",
         jundice: "",
@@ -53,9 +54,6 @@ const FormAdolescent = () => {
     
             const responseData = await response.json();
             setResposta(responseData['Result']);
-            console.log('Response:', responseData);
-            console.log('This was the Response:', responseData['Result'])
-            console.log('heyyyyyy:', responseData.prediction);
             // Handle predictions as needed
         } catch (error) {
             console.error('Error making prediction:', error);
@@ -192,6 +190,15 @@ const FormAdolescent = () => {
             </div>
             {/* Submit Button */}
             <button className='ui_btn' type="submit">Enviar</button>
+            {
+                processando === true ? (
+                    <div>
+                        <p>Processando...</p>
+                    </div>
+                 ) : (
+                    <div className='hidden'></div>
+                 )
+            }
         </form>
             )}
             <br />
