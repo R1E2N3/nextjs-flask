@@ -6,7 +6,7 @@ import axios from 'axios';
 const FormCrianca = () => {
     const [formData, setFormData] = useState({
         Ethnicity: "",
-        Jaundice: "",
+        Jaundice: 1,
         A1: "",
         A2: "",
         A3: "",
