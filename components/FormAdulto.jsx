@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { use, useState } from 'react';
 
 const FormTesting = () => {
+    const [processando, setProcessando] = useState(false)
     const [formData, setFormData] = useState({
         Ethnicity: "",
         jundice: "",
@@ -36,6 +37,7 @@ const FormTesting = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(JSON.stringify(formData));
+        setProcessando(true)
     
         try {
             const response = await fetch('https://python-api-autinosis.onrender.com/predict_adult', {
@@ -189,10 +191,20 @@ const FormTesting = () => {
             </div>
             {/* Submit Button */}
             <button className='ui_btn' type="submit">Enviar</button>
+
         </form>
             )}
             <br />
             <br />
+            {
+                processando ? (
+                    <div>
+                        <p>Processando...</p>
+                    </div>
+                ) : (
+                    <div className='hidden'></div>
+                )
+            }
         </section>
     );
 }
