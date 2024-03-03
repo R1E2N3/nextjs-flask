@@ -192,7 +192,7 @@ const FormAdolescent = () => {
             {/* Submit Button */}
             <button className='ui_btn' type="submit">Enviar</button>
             {
-                processando === true ? (
+                processando && !resposta ? (
                     <div>
                         <p className='head_text'>Processando...</p>
                     </div>

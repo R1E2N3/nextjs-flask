@@ -197,7 +197,7 @@ const FormTesting = () => {
             <br />
             <br />
             {
-                processando ? (
+                processando && !resposta ? (
                     <div>
                         <p>Processando...</p>
                     </div>
