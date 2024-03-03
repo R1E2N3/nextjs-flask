@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const FormCrianca = () => {
-    const [proceessando, setProcessando] = useState(false)
+    const [processando, setProcessando] = useState(false)
     const [formData, setFormData] = useState({
         Ethnicity: "",
         Jaundice: 1,
