@@ -194,7 +194,7 @@ const FormAdolescent = () => {
             {
                 processando && !resposta ? (
                     <div>
-                        <p className='head_text'>Processando...</p>
+                        <p className='text-xl font-semibold'>Processando...</p>
                     </div>
                  ) : (
                     <div className='hidden'></div>

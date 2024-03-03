@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import axios from 'axios';
 
 const FormCrianca = () => {
     const [processando, setProcessando] = useState(false)
@@ -198,9 +197,7 @@ const FormCrianca = () => {
             <button className='ui_btn' type="submit">Enviar</button>
         </form>
             )}
-            <br />
-            <br />
-            {
+                        {
                 processando && !resposta ? (
                     <div>
                         <p className='text-xl font-semibold'>Processando...</p>
@@ -209,6 +206,8 @@ const FormCrianca = () => {
                     <div className='hidden'></div>
                 )
             }
+            <br />
+            <br />
         </section>
     );
 }
