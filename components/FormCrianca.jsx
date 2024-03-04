@@ -50,6 +50,7 @@ const FormCrianca = () => {
     
             const responseData = await response.json();
             setResposta(responseData['Result']);
+            console.log('Response:', resposta)
             // Handle predictions as needed
         } catch (error) {
             console.error('Error making prediction:', error);
