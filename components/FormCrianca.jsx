@@ -51,6 +51,7 @@ const FormCrianca = () => {
             const responseData = await response.json();
             setResposta(responseData['Result']);
             console.log('Response:', resposta)
+            console.log('Response:', responseData['Result'])
             console.log('Hey there:', responseData)
             // Handle predictions as needed
         } catch (error) {
@@ -62,9 +63,10 @@ const FormCrianca = () => {
         <section className=''>
             <h1 className='head_text orange_gradient'>Teste para crianças.</h1>
             { resposta || resposta === 0 ? (
-                <div>
-                    {resposta}
-                </div>
+                <div className='my-6'>
+                <p className='desc'>O seu resultado foi:</p>
+                <p className='head_text'>{resposta}%</p>
+            </div>
             ) : (
 <form className='flex-col gap-4' onSubmit={handleSubmit}>
         <div className='my-10 flex-col'>
