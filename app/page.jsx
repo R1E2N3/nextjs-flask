@@ -5,10 +5,10 @@ const Home = () => (
     <h1 className='head_text text-center'>
       Autinosis.
       <br className='max-md:hidden' />
-      <span className='inline-block orange_gradient text-center'> Triagem com IA</span>
+      <span className='inline-block orange_gradient text-center'> Powered by AI</span>
     </h1>
     <p className='desc text-center'>
-      Revolucionando a triagem para autismo.
+      Revolutionizing autism screeening.
     </p>
 
     <Link href='/test' className="ui_btn">
