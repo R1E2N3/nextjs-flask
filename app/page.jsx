@@ -7,7 +7,7 @@ const Home = () => (
       <br className='max-md:hidden' />
       <span className='inline-block orange_gradient text-center'> Powered by AI</span>
     </h1>
-    <p className='desc text-center'>
+    <p className='desc text-center'>';'
       Revolutionizing autism screeening.
     </p>
 
