@@ -68,6 +68,7 @@ const FormTesting = () => {
                 <div className='my-6'>
                     <p className='desc'>O seu resultado foi:</p>
                     <p className='head_text'>{resposta}%</p>
+                    { (resposta > 50) ? <p>Nosso modelo identificou que é provável que você possua o TEA</p>  : <p>Nosso modelo identificou que é improvável que você possua o TEA.</p>}
                 </div>
             ) : (
 <form className='flex-col gap-4' onSubmit={handleSubmit}>

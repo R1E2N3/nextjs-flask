@@ -29,9 +29,6 @@ const NavBar = () => {
                 Take a test
             </Link>
 
-            <Link href='/contact' className='black_btn'>
-                Contact us
-            </Link>
         </div>
         </div>
 
