@@ -38,28 +38,46 @@ const FormAdolescent = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(JSON.stringify(formData));
-        setProcessando(true)
-    
+        setProcessando(true);
+      
         try {
-            const response = await fetch('https://python-api-autinosis.onrender.com/predict_adolescent', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData)
-            });
-    
-            if (!response.ok) {
-                throw new Error('Failed to fetch');
-            }
-    
-            const responseData = await response.json();
-            setResposta(responseData['Result']);
-            // Handle predictions as needed
+          // First, get the prediction from your Flask API
+          const response = await fetch('https://python-api-autinosis.onrender.com/predict_adolescent', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData),
+          });
+      
+          if (!response.ok) {
+            throw new Error('Failed to fetch prediction');
+          }
+      
+          const responseData = await response.json();
+          const result = responseData['Result'];
+          setResposta(result);
+      
+          // Next, send the email with the result
+          const emailResponse = await fetch('/api/send-email', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              email: formData.Target, // using the Target field as email
+              result: result,
+            }),
+          });
+          const emailData = await emailResponse.json();
+          if (!emailResponse.ok) {
+            console.error('Failed to send email:', emailData.error);
+          } else {
+            console.log('Email sent successfully');
+          }
         } catch (error) {
-            console.error('Error making prediction:', error);
+          console.error('Error during submission:', error);
+        } finally {
+          setProcessando(false);
         }
-    };
+      };
+      
 
     return (
         <section className=''>
@@ -189,6 +207,20 @@ const FormAdolescent = () => {
                     <option value={0}>Não</option>
                 </select>
             </div>
+
+            <div className='my-10 flex-col'>
+                <p className='desc'>Qual é o seu email?</p>
+                <input 
+                    className='text_input'
+                    type="email" 
+                    placeholder="seuemail@exemplo.com" 
+                    value={formData.Target}
+                    onChange={(e) => handleInputChange('Target', e.target.value)}
+                    required
+                />
+            </div>
+
+
             {/* Submit Button */}
             <button className='ui_btn' type="submit">Enviar</button>
             {
