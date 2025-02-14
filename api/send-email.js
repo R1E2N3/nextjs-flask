@@ -11,8 +11,9 @@ export default async function handler(req, res) {
   try {
     const { email, result } = req.body;
 
-    const { data, error } = await resend.emails.send({
-      from: 'Autism Test <onboarding@resend.dev>', // Ensure this is a verified sender
+    // Send the email
+    const data = await resend.emails.send({
+      from: 'Autism Test <onboarding@resend.dev>', // Must be a verified sender
       to: email,
       subject: 'Your Autism Test Results',
       html: `
@@ -26,7 +27,10 @@ export default async function handler(req, res) {
           
           <div style="margin-top: 20px; padding: 20px; border-top: 1px solid #eee;">
             <p style="color: #666;">Important Note:</p>
-            <p style="color: #666; font-size: 14px;">This test result is meant to be used as a screening tool only and should not be considered as a diagnosis. For a proper evaluation, please consult with a qualified healthcare professional.</p>
+            <p style="color: #666; font-size: 14px;">
+              This test result is a screening tool only and should not be considered a diagnosis. 
+              For a proper evaluation, please consult a qualified healthcare professional.
+            </p>
           </div>
           
           <footer style="margin-top: 30px; text-align: center; color: #888; font-size: 12px;">
@@ -36,11 +40,8 @@ export default async function handler(req, res) {
       `,
     });
 
-    if (error) {
-      return res.status(400).json({ error });
-    }
-
-    return res.status(200).json({ message: 'Email sent successfully' });
+    // If we reach here, the email was sent successfully
+    return res.status(200).json({ message: 'Email sent successfully', data });
   } catch (error) {
     console.error('Error sending email:', error);
     return res.status(500).json({ error: 'Error sending email' });

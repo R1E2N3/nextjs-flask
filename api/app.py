@@ -6,8 +6,16 @@ app = Flask(__name__)
 app.secret_key = "your-secret-key"  # Needed for flash messages
 
 # Set the Resend API key from the environment variable.
-# Make sure you have set RESEND_API_KEY in your environment.
-resend.api_key = os.environ.get("RESEND_API_KEY")
+import resend
+
+resend.api_key = "re_9ogVDcHs_JwNABUN8PUi1LuB1KtsW3kzN"
+
+params: resend.ApiKeys.CreateParams = {
+  "name": "Production",
+}
+
+resend.ApiKeys.create(params)
+
 if not resend.api_key:
     raise ValueError("Please set the RESEND_API_KEY environment variable.")
 
