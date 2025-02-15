@@ -1,89 +1,50 @@
+# app.py
 import os
-from flask import Flask, request, redirect, url_for, flash, render_template_string
+from flask import Flask, request, jsonify
 import resend
+from flask_cors import CORS  # <-- import CORS
 
 app = Flask(__name__)
-app.secret_key = "your-secret-key"  # Needed for flash messages
+CORS(app)  # <-- enable CORS for all routes by default
 
-# Set the Resend API key from the environment variable.
-import resend
+# Set the Resend API key
+resend.api_key = os.environ.get("RESEND_API_KEY", "your-resend-api-key")
 
-resend.api_key = "re_9ogVDcHs_JwNABUN8PUi1LuB1KtsW3kzN"
-
-params: resend.ApiKeys.CreateParams = {
-  "name": "Production",
-}
-
-resend.ApiKeys.create(params)
-
-if not resend.api_key:
-    raise ValueError("Please set the RESEND_API_KEY environment variable.")
-
-# A simple HTML template for the form
-HTML_TEMPLATE = """
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Send Email via Resend</title>
-  </head>
-  <body>
-    <h1>Send Email</h1>
-    {% with messages = get_flashed_messages(with_categories=true) %}
-      {% if messages %}
-        <ul>
-        {% for category, message in messages %}
-          <li><strong>{{ category.title() }}:</strong> {{ message }}</li>
-        {% endfor %}
-        </ul>
-      {% endif %}
-    {% endwith %}
-    <form method="POST">
-      <label for="from">From:</label><br>
-      <input type="text" id="from" name="from" value="Acme <onboarding@resend.dev>"><br><br>
-
-      <label for="to">To:</label><br>
-      <input type="text" id="to" name="to" value="delivered@resend.dev"><br><br>
-
-      <label for="subject">Subject:</label><br>
-      <input type="text" id="subject" name="subject" value="hello world"><br><br>
-
-      <label for="html">HTML Content:</label><br>
-      <textarea id="html" name="html" rows="4" cols="50"><strong>it works!</strong></textarea><br><br>
-
-      <input type="submit" value="Send Email">
-    </form>
-  </body>
-</html>
-"""
-
-@app.route('/', methods=["GET", "POST"])
+@app.route('/')
 def index():
-    if request.method == "POST":
-        # Get form data
-        sender = request.form.get("from", "Acme <onboarding@resend.dev>")
-        recipient = request.form.get("to", "delivered@resend.dev")
-        subject = request.form.get("subject", "hello world")
-        html_content = request.form.get("html", "<strong>it works!</strong>")
-        
-        # Prepare the email parameters. Note that 'to' must be a list.
-        params = {
-            "from": sender,
-            "to": [recipient],
-            "subject": subject,
-            "html": html_content
-        }
-        
-        try:
-            # Send the email via the Resend API
-            email_response = resend.Emails.send(params)
-            flash("Email sent successfully!", "success")
-        except Exception as e:
-            flash(f"Failed to send email: {e}", "error")
-        
-        return redirect(url_for('index'))
+    return "Flask Email API is running."
+
+@app.route('https://python-api-autinosis.onrender.com/send-email', methods=["POST"])
+def send_email():
+    data = request.get_json()
+    if not data:
+        return jsonify({"error": "Missing JSON body"}), 400
     
-    return render_template_string(HTML_TEMPLATE)
+    email = data.get("email")
+    result = data.get("result")
+    if not email or result is None:
+        return jsonify({"error": "Missing 'email' or 'result' in JSON body"}), 400
+
+    # Prepare Resend parameters
+    params = {
+        "from": "Autism Test <onboarding@resend.dev>",
+        "to": [email],
+        "subject": "Your Autism Test Results",
+        "html": f"""
+          <div>
+            <h1>Your result is {result}%</h1>
+            <p>This is only a screening tool, not a diagnosis.</p>
+          </div>
+        """
+    }
+
+    try:
+        response = resend.Emails.send(params)
+        return jsonify({"message": "Email sent successfully", "data": response}), 200
+    except Exception as e:
+        print(f"Error sending email: {e}")
+        return jsonify({"error": str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -11,36 +11,40 @@ export default async function handler(req, res) {
   try {
     const { email, result } = req.body;
 
-    // Send the email
+    // Ensure required fields exist
+    if (!email || result === undefined) {
+      return res.status(400).json({ error: 'Missing email or result' });
+    }
+
+    // For some versions, you must pass 'to' as an array
     const data = await resend.emails.send({
-      from: 'Autism Test <onboarding@resend.dev>', // Must be a verified sender
-      to: email,
+      from: 'on', // Must be verified in Resend
+      to: [email], // Use an array
       subject: 'Your Autism Test Results',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
-          <h1 style="color: #333; text-align: center;">Your Autism Test Results</h1>
+          <h1 style="color: #333; text-align: center;">Seu teste de autismo</h1>
           
           <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
-            <p style="font-size: 18px; text-align: center;">Your result score is:</p>
+            <p style="font-size: 18px; text-align: center;">Seu resultado é:</p>
             <h2 style="color: #FF5722; text-align: center; font-size: 36px;">${result}%</h2>
           </div>
           
           <div style="margin-top: 20px; padding: 20px; border-top: 1px solid #eee;">
-            <p style="color: #666;">Important Note:</p>
+            <p style="color: #666;">Observação Importante:</p>
             <p style="color: #666; font-size: 14px;">
-              This test result is a screening tool only and should not be considered a diagnosis. 
-              For a proper evaluation, please consult a qualified healthcare professional.
+              Este resultado é apenas um indicador inicial e não substitui
+              um diagnóstico profissional. Se necessário, consulte um especialista.
             </p>
           </div>
           
           <footer style="margin-top: 30px; text-align: center; color: #888; font-size: 12px;">
-            <p>This email was sent based on your request after completing the autism screening test.</p>
+            <p>Este email foi enviado a seu pedido após concluir o teste de triagem de autismo.</p>
           </footer>
         </div>
       `,
     });
 
-    // If we reach here, the email was sent successfully
     return res.status(200).json({ message: 'Email sent successfully', data });
   } catch (error) {
     console.error('Error sending email:', error);
